@@ -16,15 +16,15 @@ public class Operators {
  *        +-----------------+-----------+----------------------+-----------------+
  *        | Operation       | Operator  | Algebraic expression | Java expression |
  *        +-----------------+-----------+----------------------+-----------------+
- *        | Addition        |     +     |        a + 1         |		a +1     |
+ *        | Addition        |     +     |        a + 1         |        a +1     |
  *        +-----------------+-----------+----------------------+-----------------+
- *        | Subtraction     |     -	    |        b -2          |		b -2     |
+ *        | Subtraction     |     -     |        b -2          |        b -2     |
  *        +-----------------+-----------+----------------------+-----------------+
- *        | Multiplication  |     *     |		  cm	       |      c * m      |
+ *        | Multiplication  |     *     |         cm           |      c * m      |
  *        +-----------------+-----------+----------------------+-----------------+
- *        | Division        |     /     |		d / e          |      d / e      |
+ *        | Division        |     /     |       d / e          |      d / e      |
  *        +-----------------+-----------+----------------------+-----------------+
- *        | Rest            |     %     |       f mod g        |	  f % g      |
+ *        | Rest            |     %     |       f mod g        |      f % g      |
  *        +-----------------+-----------+----------------------+-----------------+
  *
  *      The module (%) provides the rest of the division, in the expression “x% y”,
@@ -86,15 +86,15 @@ public class Operators {
  *      The addition and subtraction operations are then applied.
  *
  *         +-----------+----------------+-----------------------------------------------------------+
- *         | Operator  | Operation      | Evaluation order (precedence) 				            |
+ *         | Operator  | Operation      | Evaluation order (precedence)                             |
  *         +-----------+----------------+-----------------------------------------------------------+
  *         |   * / %   | Multiplicação  | Rated first. If there are multiple operators of this type,|
- * 		   |		   | Rest Division	| they will be evaluated from left to right				    |
+ *         |            | Rest Division | they will be evaluated from left to right                 |
  *         +-----------+----------------+-----------------------------------------------------------+
- *         |    + -    |	Addition    | Then evaluated. If there are several such operators, 	    |
- * 		   |		   |  Subtraction   | they will be evaluated from left to right.			    |
+ *         |    + -    |    Addition    | Then evaluated. If there are several such operators,      |
+ *         |           |  Subtraction   | they will be evaluated from left to right.                |
  *         +-----------+----------------+-----------------------------------------------------------+
- *         |    =      |  Attribution   | Set last	 												|
+ *         |    =      |  Attribution   | Set last                                                  |
  *         +-----------+----------------+-----------------------------------------------------------+
  *
   */
@@ -117,25 +117,26 @@ public class Operators {
  *         +--------------------+---------------------+------------------------+----------------------------------+
  *         | Equality operator  |  Equality operator  | Java condition example | Meaning of the condition in Java |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- *         | 											  Equality operator       								  |
+ *         |                                              Equality operator                                       |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- *         | 		  =       	|         ==	      |        x == y          |		x is equal to y   		  |
+ *         |          =         |         ==          |        x == y          |        x is equal to y           |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- *         | 		  ?  		|         !=          |	    x != y             |      x is different from y       |
+ *         |          ?         |         !=          |     x != y             |      x is different from y       |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- * 		   | 											  Relational operators       							  |
+ *         |                                              Relational operators                                    |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- * 		   | 		  >       	|         >	          |        x > y           |		x is greater than y  	  |
+ *         |           >        |         >           |        x > y           |        x is greater than y       |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- *         | 		  <  		|         <           |	    x < y              |      	x is less than y     	  |
+ *         |          <         |         <           |     x < y              |        x is less than y          |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- * 		   | 		  >_       	 |         >=	      |        x >= y          | x is greater than or equal to y  |
+ *         |           >_       |         >=          |        x >= y          | x is greater than or equal to y  |
  *         +--------------------+---------------------+------------------------+----------------------------------+
- *         | 		  <_  		|         <=          |	    x <= y             | x is less than or equal to y     |
+ *         |          <_        |         <=          |     x <= y             | x is less than or equal to y     |
  *         +--------------------+---------------------+------------------------+----------------------------------+
   */
 
         // relational
+        
         int valueA = 14;
         int valueB = 20;
         if(valueA < valueB)
@@ -148,9 +149,10 @@ public class Operators {
  *          |     &&    | Used when we want the two expressions to be true.            |
  *          +-----------+--------------------------------------------------------------+
  *          |    ||     | Used when we need at least one of the expressions to be true.|
- * 		    +-----------+--------------------------------------------------------------+
+ *          +-----------+--------------------------------------------------------------+
  *
   */
+
         // && Example
 
         int num1 = 10;
@@ -166,7 +168,7 @@ public class Operators {
         else
             System.out.println(num3 + " is the largest number.");
 
-
+        
         // || Example
 
         int value1 = 1;
@@ -179,6 +181,3 @@ public class Operators {
 
     }
 }
-
-
-
