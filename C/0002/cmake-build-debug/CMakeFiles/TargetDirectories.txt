@@ -1,0 +1,3 @@
+C:/Users/wagner/Desktop/GrowthBook/C/0002/cmake-build-debug/CMakeFiles/0002.dir
+C:/Users/wagner/Desktop/GrowthBook/C/0002/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/wagner/Desktop/GrowthBook/C/0002/cmake-build-debug/CMakeFiles/rebuild_cache.dir
