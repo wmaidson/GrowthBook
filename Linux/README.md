@@ -6,7 +6,7 @@ Referências [linux.die.net](https://linux.die.net/)
 
 | Comando | descrição | 
 | ------ | ------ |
-| `-h` ou `--help` | Commando de ajuda |
+| `--help` | Commando de ajuda |
 | `pwd` | Imprime o nome de arquivo completo do diretório de trabalho atual. |
 | `ls` | Liste informações sobre os FILEs (o diretório atual por padrão). Classificar entradas em ordem alfabética se nenhum dos `-cftuvSUX` nem `--sort` . |
 | `echo` | Faça eco do (s) STRING (s) para a saída padrão. |
