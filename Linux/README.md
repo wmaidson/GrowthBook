@@ -32,3 +32,52 @@ Referências [linux.die.net](https://linux.die.net/)
 | `data` | Exiba a hora atual no FORMATO fornecido ou defina a data do sistema. |
 | `head` | Imprima as primeiras 10 linhas de cada ARQUIVO na saída padrão. Com mais de um ARQUIVO, preceda cada um com um cabeçalho com o nome do arquivo. Sem FILE, ou quando FILE for -, leia a entrada padrão. |
 | `tail` | Imprima as últimas 10 linhas de cada ARQUIVO na saída padrão. Com mais de um ARQUIVO, preceda cada um com um cabeçalho com o nome do arquivo. Sem FILE, ou quando FILE for -, leia a entrada padrão. |
+
+## SSH
+
+- SSH (Secure Shell) é um protocolo de comunicação seguro que permite p envio de comandos e o controle remoto de um host por meio de uma conexão Criptografado.
+- O SSH possui uma arquitetura cliente e servido, e está disponível em praticamente todas as plataformas, como Linux, MAC OS X, BDS, Windows, etc.
+
+##Protocolo SSH
+
+- O protocolo SSH cuida da autenticação, criptografia e integridade dos dados trasmitidos em uma rede.
+- AutenticaçãoÇ Determina a identidade de alguém de forma confiável.
+- CRiptografia: Os dados são "embaralhados" e modo a se tornarem ininteligíveis para todos exceto os destinatários.
+- Integridadade: Garantia de qie os dados trasmitidos chegegem inalterados.
+
+## Pequena Histórico do SSH
+
+- O protocolo SSH foi desenvolvido em 1995 por Tatu Ylönen, pesquisador da Universidade de Tecnogia da Finlândia.
+- E julho do mesmo ano, o software SSH1 foi liberado ao público como software livre com código fonte Em 199 a SCS( SSH Communications Security Corp) fundada por Ylönen langou a versão SSH-2 incorporando novos algoritmos e eliminando falhas de segunraça da primeira versão.
+
+## OpenSSH
+
+- O [OpenSSH](https://www.openssh.com/) é uma versão gratuita do SSH. É desenvolvido pelo projeto OpenBSD
+
+## Usando o SSH
+
+instalar o cliente OpenSSH no Linux:
+```
+sudo apt-get install openssh-client
+```
+
+Istalar o servidor Linux:
+```
+sudo apt-get install openssh-client-server
+```
+
+Conectar a partir do cliente:
+```
+ssh -l user IP/name_host
+ssh -l example 192.18.1.130
+```
+
+Porta de comunicação 22
+
+## Know Hosts
+
+- Quando um cliente SSH se conecta a um servidor, cada um prova sua identidade ao outro. O servidor autentica o cliete e o cliete também autentica o servidor com o uso de crptografia de chave pública.
+- Cada servidor SSH possui uma chave de identificação, chamada de `host key`, usada para identintificar-se para os clientes.
+- Na primeira vez que um cliente se conecta a uma host remoto, uma cópia da chave de host é armazenada em sua conta local.
+Assim, toda cez que o cliente se reconectar a esse host remoto, o cliente SSH verificará a identidade dele usando essa chave pública.
+Essa técnia ajida a evitar, por exmplo, ataques do tipo 'main-in-the-middle'
