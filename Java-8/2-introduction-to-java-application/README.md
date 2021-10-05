@@ -1,6 +1,6 @@
 ## Capítulo 2 introdução a aplicativos Java - entrada/saída e operadores
 
-## Exercícios de Revisão
+### Exercícios de Revisão
 
 - **2.1** Preencha as lacunas em cada uma das seguintes afirmações:
 a) Um(a) ________ começa o corpo de cada método e um(a) ________ termina o corpo de cada método.
