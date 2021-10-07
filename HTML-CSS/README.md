@@ -34,3 +34,11 @@
 | `<ins></ins>` | **insert** - O elemento `<ins>` pode ser usado para mostrar o conteúdo que foi inserido em um documento. O conteúdo normalmente é sublinhado |
 | `<del></del>` | **delete** - O elemento `<del>` pode ser usado para exibir texto que foram excluído dele. O conteúdo geralmente é rabiscado |
 | `<s></s>` | **strikethrough**. -  O elemento `<s>` indica que algo não é mais exato ou relevante(mas que não deve ser excluído). Visualmente o conteúdo geralmente será exibido com um risco no meio do texto |
+| `<ol></ol>` | **ordered-lists**. -  A lista ordenada é criada com o elemento `<ol>` |
+| `<li></li>` | **list-items**. - Cada elemento da lista é colocado dentro entre uma tag de abertura `<li>` e uma tag de fechamento '</li>`(O li siginifica item da lista). Os navegadores recuam a listas por padrão  |
+| `<ul></ul>` | **unordered-lists**. -  A lista não ordenada é criada com o elemento `<ul>` |
+| `<dl></dl>` | **definitions-lists**. -  A lista de definição é criada com o elemento `<dl>` e geralmente consiste de uma série de termos e suas definições. Dentro do elemento você costuma ver pares de elementos `<dt>` e `<dt>` |
+| `<dt></dt>` | **definitions-term**. - Isso é usado para conter o termo a ser definido(a definição do termo) |
+| `<dd></dd>` | **definitions-details**. - Isso é usado para conter o definição |
+| `<a></a>` | **anchor**. - Links são criados usando o elemento `<a>` que tem um atributo chamado `href` o valor do atributo de href é a URL link alvo |
+| `<a href="">` | `href="https://"` Está é a página para qual o link leva você |
