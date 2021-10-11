@@ -42,3 +42,13 @@
 | `<dd></dd>` | **definitions-details**. - Isso é usado para conter o definição |
 | `<a></a>` | **anchor**. - Links são criados usando o elemento `<a>` que tem um atributo chamado `href` o valor do atributo de href é a URL link alvo |
 | `<a href="">` | `href="https://"` Está é a página para qual o link leva você |
+| `<img>` | **images**. - Para adicionar uma imagem à uma página, você precisa usar um elemento `<img>` Esse é um elemento vazio(o que siginifica que não há nenhuma tag de fechamento). Ele deve receber os dois seguintes atributos. |
+| `src` | **source**. - Isso informa o navegador onde ele pode encontrar o arquivo de imagem. Geralmente será uma URL relativo apontando para uma imagem em seu próprio site |
+| `alt` | **alternative**. - Isso fornece uma descrição de texto da imagem que define a imagem se você não conseguir vê-la. |
+| `tittle` | **tittle**. - Você também pode utilizar o atributo tittle com o elemento `<img>` para fornecer informações adicionais sobre a imagem. A maioria dos navegadores exive o conteúdo desse atributi em uma dica de ferramenta quando o usuário passa o mouse sobre a imagem. |
+| `height` | Isso especifica a altura da imagem em pixels |
+| `width` | Isso especifica a largura da imagem em pixels |
+| `align` | Foi removido do HTML5 e novos sites devem usar CSS para controlar o alinhamento das imagems, o atributo align pode receber estes valores horizontais **left** isso alinha a imagem a esquerda (permitindo que o texto flutua do lado direito). **right** Isso alinha à direita (permitindo que o texto flutua do lado esquerdo) |
+| `top` | Isso alinha a primeira linha do texto adjacente com a parte superior da imagem |
+| `middle` | Isso alinha a primeira linha do texto adjacente com o cntro da imagem |
+| `botton` | Isso alinha a primeira linha do texto adjacente com a parte inferior da imagem |  
