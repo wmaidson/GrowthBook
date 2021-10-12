@@ -38,23 +38,23 @@ Referências [linux.die.net](https://linux.die.net/)
 - SSH (Secure Shell) é um protocolo de comunicação seguro que permite p envio de comandos e o controle remoto de um host por meio de uma conexão Criptografado.
 - O SSH possui uma arquitetura cliente e servido, e está disponível em praticamente todas as plataformas, como Linux, MAC OS X, BDS, Windows, etc.
 
-##Protocolo SSH
+####  Protocolo SSH
 
 - O protocolo SSH cuida da autenticação, criptografia e integridade dos dados trasmitidos em uma rede.
 - AutenticaçãoÇ Determina a identidade de alguém de forma confiável.
 - CRiptografia: Os dados são "embaralhados" e modo a se tornarem ininteligíveis para todos exceto os destinatários.
 - Integridadade: Garantia de qie os dados trasmitidos chegegem inalterados.
 
-## Pequena Histórico do SSH
+####  Pequena Histórico do SSH
 
 - O protocolo SSH foi desenvolvido em 1995 por Tatu Ylönen, pesquisador da Universidade de Tecnogia da Finlândia.
 - E julho do mesmo ano, o software SSH1 foi liberado ao público como software livre com código fonte Em 199 a SCS( SSH Communications Security Corp) fundada por Ylönen langou a versão SSH-2 incorporando novos algoritmos e eliminando falhas de segunraça da primeira versão.
 
-## OpenSSH
+####  OpenSSH
 
 - O [OpenSSH](https://www.openssh.com/) é uma versão gratuita do SSH. É desenvolvido pelo projeto OpenBSD
 
-## Usando o SSH
+#### Usando o SSH
 
 instalar o cliente OpenSSH no Linux:
 ```
@@ -74,7 +74,7 @@ ssh -l example 192.18.1.130
 
 Porta de comunicação 22
 
-## Know Hosts
+####  Know Hosts
 
 - Quando um cliente SSH se conecta a um servidor, cada um prova sua identidade ao outro. O servidor autentica o cliete e o cliete também autentica o servidor com o uso de crptografia de chave pública.
 - Cada servidor SSH possui uma chave de identificação, chamada de `host key`, usada para identintificar-se para os clientes.

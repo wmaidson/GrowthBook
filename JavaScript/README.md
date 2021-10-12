@@ -57,7 +57,7 @@ a = 3 b = 4 ;
 
 ##### Palavras Reservadas
 
-- JavaScrip reserva vários identificadores como palavras-chaves da própria linguagem. Você não pode usar essas palavras como identificadores em seu programas, [`aqui`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar#palavras-chave_reservadas_do_ecmascript_2021) está uma listas completa com as palavras reservadas.
+- JavaScrip reserva vários identificadores como palavras-chaves da própria linguagem. Você não pode usar essas palavras como identificadores em seu programas, você pode ver a lista completa [`aqui`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar#palavras-chave_reservadas_do_ecmascript_2021)
 
 <h1 align="center">
 <img alt="lexicalGrammar" src=".github/lexicalGrammar.png" height="300px" />
