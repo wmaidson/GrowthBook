@@ -34,19 +34,20 @@ estrutura de sequência, a estrutura de seleção e a estrutura de repetição.
 - O termo “estruturas de controle” vem do campo das ciências da computação. A Java Language Specification refere-se a “estruturas de controle”
 como “instruções de controle”.
 - A estrutura de sequência está incorporada ao Java. A não ser que seja instruído de outra forma, o computador executa as instruções Java uma
-depois da outra na ordem em que elas são escritas — isto é, em sequência.
-- Em qualquer lugar que uma ação única pode ser colocada, várias ações podem ser colocadas em sequência.
+depois da outra na ordem em que elas são escritas isto é, em sequência.
+- Em qualquer lugar que uma ação única pode ser colocada, várias ações podem ser colocadas em sequência. 
+
 - O Java tem **três tipos de instruções de seleção**.
-- A instrução de seleção única **if** escolhe ou ignora uma ou mais ações.
-- A instrução de seleção dupla **if…else** seleciona entre duas ações ou grupos de ações.
-- A instrução **switch** é chamada de instrução de seleção múltipla, uma vez que seleciona entre muitas ações diferentes (ou grupos de ações).
+1. A instrução de seleção única **if** escolhe ou ignora uma ou mais ações.
+2. A instrução de seleção dupla **if…else** seleciona entre duas ações ou grupos de ações.
+3. A instrução **switch** é chamada de instrução de seleção múltipla, uma vez que seleciona entre muitas ações diferentes (ou grupos de ações).
 - O Java fornece as **instruções de repetição** **while**, **do…while** e **for** (também chamada iteração ou loop), que permitem que programas executem
 instruções repetidamente enquanto uma condição de continuação de loop permanece verdadeira.
 - As instruções while e for realizam a(s) ação(ões) no seu zero de corpos ou mais horas se a condição de continuação do loop for inicialmente
 falsa, a(s) ação(ões) não serão executadas. A instrução do…while realiza a(s) ação(ões) no seu corpo uma ou várias horas.
 - As palavras if, else, switch, while, do e for são palavras-chave Java. As palavras-chave não podem ser utilizadas como identificadores,
 por exemplo, nos nomes de variáveis.
--Cada programa é formado combinando o número de instruções de sequência, seleção e de repetição, conforme apropriado no algoritmo que o
+- Cada programa é formado combinando o número de instruções de sequência, seleção e de repetição, conforme apropriado no algoritmo que o
 programa implementa.
 - As instruções de controle de entrada única/saída única são anexadas uma a outra conectando o ponto de saída de uma instrução ao ponto de
 entrada da instrução seguinte. Isso é conhecido como empilhamento de instruções de controle.
