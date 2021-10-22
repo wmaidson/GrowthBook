@@ -18,3 +18,10 @@
 |[Interest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/Interest.java)| Cálculos de juros compostos com for |
 |[DoWhileTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/DoWhileTest.java)| Instrução de repetição do...while. |
 |[LetterGrades](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/LetterGrades.java)| A estrutura de seleção múltipla switch |
+|[AutoPolicy](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/AutoPolicy.java)| Estudo de caso da classe AutoPolicy: Strings em instruções switch |
+|[AutoPolicyTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/AutoPolicyTest.java)| Main class de AutoPolicy  |
+|[BreakTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/BreakTest.java)| Instruções break |
+|[ContinueTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/ContinueTest.java)| Instruções continue |
+|[LogicalOperators](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/LogicalOperators.java)| Operadores lógicos |
+|[Shapes](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/Shapes.java)| Estudo de caso de GUIs e imagens gráficas: desenhando retângulos e ovais |
+|[ShapesTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/ShapesTest.java)| Main classe de Shapes |
