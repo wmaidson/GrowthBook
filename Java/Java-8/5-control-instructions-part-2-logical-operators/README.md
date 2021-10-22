@@ -25,3 +25,5 @@
 |[LogicalOperators](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/LogicalOperators.java)| Operadores lógicos |
 |[Shapes](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/Shapes.java)| Estudo de caso de GUIs e imagens gráficas: desenhando retângulos e ovais |
 |[ShapesTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/5-control-instructions-part-2-logical-operators/charapter-05/src/ShapesTest.java)| Main classe de Shapes |
+
+### Resumo
