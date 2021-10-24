@@ -1,5 +1,14 @@
 ## Capítulo 2 introdução a aplicativos Java - entrada/saída e operadores
 
+| Nome | Descrição |
+| ------ | ------ |
+|[Welcome1](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Welcome1.java)| imprimindo uma linha de texto. |
+|[Welcome2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Welcome2.java)| Imprimindo uma linha de texto com múltiplas instruções.|
+|[Welcome3](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Welcome3.java)| Imprimindo múltiplas linhas de texto com uma única instrução |
+|[Welcome4](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Welcome4.java)| Exibindo múltiplas linhas com o método System.out.printf. |
+|[Addition](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Addition.java)| Programa de adição que insere dois números, então exibe a soma deles. |
+|[Comparison](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Comparison.java)| Compara inteiros utilizando instruções if, operadores relacionais e operadores de igualdade. |
+
 ### Exercícios de Revisão
 
 - **2.1** Preencha as lacunas em cada uma das seguintes afirmações:
