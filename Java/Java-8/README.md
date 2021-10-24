@@ -11,6 +11,17 @@
 |[Addition](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Addition.java)| Programa de adição que insere dois números, então exibe a soma deles. |
 |[Comparison](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/2-introduction-to-java-application/src/Comparison.java)| Compara inteiros utilizando instruções if, operadores relacionais e operadores de igualdade. |
 
+## Capítulo 3
+#### Introdução a classes, objetos, métodos e strings
+
+| Nome | Descrição |
+| ------ | ------ |
+|[AccountWithConstrutor](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/3-introduction-to-class-objects-methods-and-strings/charapter-03/src/AccountWithConstrutor.java)| a classe Account com um construtor que inicializa o nome |
+|[AccountWithConstrutorTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/3-introduction-to-class-objects-methods-and-strings/charapter-03/src/AccountWithConstrutorTest.java)|Usando o construtor de Account para inicializar a instância name variável no momento em que cada objeto Account é criado |
+|[Account](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/3-introduction-to-class-objects-methods-and-strings/charapter-03/src/Account.java)| Classe Account que contém uma variável de instância name e métodos para configurar e obter seu valor.|
+|[AccountTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/3-introduction-to-class-objects-methods-and-strings/charapter-03/src/AccountTest.java)| Cria e manipula um objeto Account |
+|[Dialog1](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/3-introduction-to-class-objects-methods-and-strings/charapter-03/src/Dialog1.java)| Usando JOptionPane para exibir múltiplas linhas em uma caixa de diálogo |
+|[NameDialog](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/3-introduction-to-class-objects-methods-and-strings/charapter-03/src/NameDialog.java)| Obtendo a entrada de usuário a partir de um diálogo |
 
 ## Capítulo 4 
 #### Instruções de controle: parte 1; Operadores de atribuição ++ e --
