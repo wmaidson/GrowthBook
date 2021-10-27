@@ -4,43 +4,47 @@ só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 
 ---
 
-**A**) java.util
-B) java.lang
-C) java.net
-D) java.io
-E) java.swt
+- **A**) java.util
+- B) java.lang
+- C) java.net
+- D) java.io
+- E) java.swt
 
 ---
 
 Na linguagem de programação Java, que palavra-chave cria um objeto de um classe especifica?
 
-A) MAIN
-B) PUBLIC
-C) CLASS
-D) PRIVATE
-**E**) NEW
+- A) MAIN
+- B) PUBLIC
+- C) CLASS
+- D) PRIVATE
+- **E**) NEW
 
 ---
 
+```
 int idade = 3;
 float sal = 1825.54f;
 char = 'G';
 boolena casado = false;
-
+```
 **typecast**
+```
 int idade = (int) 3;
 float sal = (float) 1825.54;
 char letra = (char) 'G';
 boolean casado = (boolean) false;
-
+```
 **Wrapper Class** (invólucro)
+```
 Integer idade = new Integer(3);
 Float sal = new Float(1825.54);
 Charactere letra = new Charactere('G');
 Boolean casado = new Boolean(false);
+```
 
 | Família| Tipo Primitivo | Classe Invólucro | Tamanho | Exemplo |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ | ------ | ------ |
 | Lógico | boolean | Boolean |1 bit | true |
 | Líterias | char | caracter | 1 byte |  'a' |
 | Líterias | - | String| 1 byte/cada |  "Java" |
@@ -56,25 +60,25 @@ assinale a opção INCORRETA.
 
 ---
 
-A) booleano (ou lógico): conjunto de valores false ou verdadeiro.
-**B**) vetor: estrutura que suporta NxM posições de um mesmo tipo
-C) caracter: qualquer conjunto de caracteres alfanuméricos.
-D) inteiro: qualquer número inteiro, negativo, nulo ou positivo.
-E) real: qualquer número real, negativo, nulo ou positivo.
+- A) booleano (ou lógico): conjunto de valores false ou verdadeiro.
+- **B**) vetor: estrutura que suporta NxM posições de um mesmo tipo
+- C) caracter: qualquer conjunto de caracteres alfanuméricos.
+- D) inteiro: qualquer número inteiro, negativo, nulo ou positivo.
+- E) real: qualquer número real, negativo, nulo ou positivo.
 
 Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
-() "582.4"
-().verdadeiro.
-()105
-()-102
-()"0"
-()"informação"
-()0.82
+- () "582.4"
+- ().verdadeiro.
+- ()105
+- ()-102
+- ()"0"
+- ()"informação"
+- ()0.82
 
-A) 2, 2, 1, 1, 1, 2, 1
-**B**) 2, 2, 1 ,1, 2, 2, 2
-C) 1, 1, 1, 2, 2, 1, 2
-D) 1, 2, 2, 2, 1, 1, 1
+- A) 2, 2, 1, 1, 1, 2, 1
+- **B**) 2, 2, 1 ,1, 2, 2, 2
+- C) 1, 1, 1, 2, 2, 1, 2
+- D) 1, 2, 2, 2, 1, 1, 1
 
 ---
 
@@ -91,28 +95,28 @@ Assinale a alternativa que completa corretamente a lacuna da afirmativa a seguir
 
 São caracterizados como tipos_____os dados numériocos positivos ou negativos, excluindo-se destes qualquer fracionário.
 
-A) caracteres
-B) lógicos
-**C**) inteiros
-D) reais
+- A) caracteres
+- B) lógicos
+- **C**) inteiros
+- D) reais
 
 --
 
 Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alternativa com a sequência correta.
 
-(1) Inteiro
-(2) Reais
-(3) Caracteres
-(4) Lógicos
-() 35; 0; -56
-().F; .V
-()"Rua Brigadeiro Layra"
-() -0,5; 1,8; -4
+- (1) Inteiro
+- (2) Reais
+- (3) Caracteres
+- (4) Lógicos
+- () 35; 0; -56
+- ().F; .V
+- ()"Rua Brigadeiro Layra"
+- () -0,5; 1,8; -4
 
-A) 3, 1, 4, 2
-B) 2, 4 ,3, 1
-C) 1, 2, 3, 4
-D) 1, 4, 3, 2
+- A) 3, 1, 4, 2
+- B) 2, 4 ,3, 1
+- C) 1, 2, 3, 4
+- D) 1, 4, 3, 2
 
 ---
 
@@ -125,7 +129,7 @@ D) 1, 4, 3, 2
 
 ---
 
-Operadores de atribuição
+### Operadores de atribuição
 
 
 | Simbolo | Descrição | valor | Resultado |
@@ -138,7 +142,7 @@ Operadores de atribuição
 
 ---
 
-Classe Math
+### Classe Math
 
 | Simbolo | Descrição | valor | Resultado |
 | PI | Constante | Math.PI | 3.1415 |
@@ -161,10 +165,10 @@ System.out.println("O valor da variável é " + n ++);
 
 Executando as linhas acima, será exibida a mensagem "O valro da variável é____" e o valor final de n após a execução será___.
 
-A) 3 e 4
-**B**) 4 e 5 
-C) 5 e 5
-D) 3 e 3
+- A) 3 e 4
+- **B**) 4 e 5 
+- C) 5 e 5
+- D) 3 e 3
 
 ---
 
@@ -176,10 +180,10 @@ double resultado = n2 / n1;
 System.out.print(resultado);
 ```
 
-A) 5.0
-**B**) 2.0
-C) 2.5
-D) 3.0
+- A) 5.0
+- **B**) 2.0
+- C) 2.5
+- D) 3.0
 
 ---
 
@@ -191,10 +195,10 @@ v3 += v2;
 System.out.printlnU(v1 + "" + v2 + "" + v3);
 ```
 
-A) 7 2 4
-B) 7 1 1 
-**C**) 7 1 3
-D) 7 0 2
+- A) 7 2 4
+- B) 7 1 1 
+- **C**) 7 1 3
+- D) 7 0 2
 
 ```
 V1 = 7
@@ -206,7 +210,7 @@ System.out.printlnU(v1 + "" + v2 + "" + v3);
 ```
 ---
 
-Operador Ternário
+### Operador Ternário
 
 ```
 Se (n1 > n2) então
@@ -221,7 +225,7 @@ maior = n1 > n2 ? n1 : n2;
 ```
 ---
 
-Operador Relacional
+### Operador Relacional
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
