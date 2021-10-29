@@ -267,3 +267,33 @@ maior = n1 > n2 ? n1 : n2;
 | V | F |
 | F | V |
 
+Dados as linhas a seguir:
+
+int x = 8, y = 3;
+int w = x / y;
+Sting z = (w % 2 == 0) ? "frase1":"frase2";
+System.out.println(z);
+
+P que acontecerá se esse código for executado?
+
+a) Um erro de tipo na variável w
+b) Um erro de atribuição na vaiável z
+c) Será impresso "frase1"
+d) Será impresso "frase2"
+
+Analise o código a seguir e infique o que será impresso na tela:
+
+String parte1 = "Curso";
+String parte2 = "Video";
+String parte3 = parte1 + parte2;
+String parte4 = "CursoVideo";
+System.out.println(parte3 == parte4);
+System.out.println(parte3.equals(parte4));
+
+a) CursoVideo
+b) false true
+c) tru true
+d) true false
+
+Obs: == compara se dois objestos sao iguais
+.equals compara se o conteudo de dois objetos sao iguais
