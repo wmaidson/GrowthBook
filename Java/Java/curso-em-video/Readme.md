@@ -145,6 +145,7 @@ Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alte
 ### Classe Math
 
 | Simbolo | Descrição | valor | Resultado |
+| ------ | ------ | ------ | ------ |
 | PI | Constante | Math.PI | 3.1415 |
 | pow | Exponenciação | Math.pow(5,2) | 25 |
 | sqrt | Raiz Quadrada | Math.sqrt(25) | 5 |
@@ -235,3 +236,34 @@ maior = n1 > n2 ? n1 : n2;
 | <= | Menor ou igual a  | 6 <= 6 | true |
 | == | Igual a | 9 == 8 | false |
 | != | Diferente de | 4 != 5 | true |
+
+---
+
+### Operador Lógicos
+
+| p | q | p AND q |
+| ------ | ------ | ------ |
+| V | V | V |
+| V | F | F |
+| F | V | F |
+| F | F | F |
+
+| p | q | p OR q |
+| ------ | ------ | ------ |
+| V | V | V |
+| V | V | V |
+| F | V | V |
+| F | F | F |
+
+| p | q | p ^ q |
+| ------ | ------ | ------ |
+| V | V | F |
+| V | V | V |
+| F | V | V |
+| F | F | F |
+
+| p | !p |
+| ------ | ------ |
+| V | F |
+| F | V |
+
