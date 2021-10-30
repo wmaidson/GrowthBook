@@ -20,3 +20,11 @@ Verifique se alteração de permissão ocorreu com sucesso executando novamente 
 ```powershell
 Get-ExecutionPolicy
 ```
+
+---
+
+### postgres in docker
+
+```
+docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+```
