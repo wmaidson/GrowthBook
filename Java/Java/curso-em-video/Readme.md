@@ -308,3 +308,16 @@ System.out.println(parte3.equals(parte4));
 - `.equals` compara se o conteudo de dois objetos sao iguais
 
 ---
+
+Analise o código a seguir e indique o que será impresso na tela:
+
+```
+boolean val1 = (4>=5), val2 = (4<4), val13 = (val1==val2);
+boolean val4 = val1 ^ va13;
+boolean val5 = !val2 && val4;
+System.out.println(val4 + "" + val15);
+```
+- **a**) true true
+- b) false true
+- c) false false
+- d) true false
