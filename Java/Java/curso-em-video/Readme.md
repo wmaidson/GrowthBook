@@ -84,10 +84,10 @@ Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
 
 Assinale a alternativa que contenha somente nomes válidos de variáveis
 
-A) índice, #pagina, contexto
-**B**) nome1, sobrenome2, senha3
-C) 2-nome, sobrenome, endereco
-D) 1-nome, 2-sobrenome, 3-senha
+- A) índice, #pagina, contexto
+- **B**) nome1, sobrenome2, senha3
+- C) 2-nome, sobrenome, endereco
+- D) 1-nome, 2-sobrenome, 3-senha
 
 ---
 
