@@ -175,7 +175,7 @@ Uma pilha é uma versão limitada de uma list encadeada. Novos
 só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 **Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
 
-- **A**) java.util
+- A)✔️ java.util
 - B) java.lang
 - C) java.net
 - D) java.io
@@ -189,7 +189,7 @@ Na linguagem de programação Java, que palavra-chave cria um **objeto** de um c
 - B) PUBLIC
 - C) CLASS
 - D) PRIVATE
-- **E**) NEW
+- E)✔️ NEW
 
 ---
 
@@ -197,22 +197,44 @@ Em relação ao tipos básicos de dados (tipos primitivos),
 assinale a opção INCORRETA.
 
 - A) booleano (ou lógico): conjunto de valores false ou verdadeiro.
-- **B**) vetor: estrutura que suporta NxM posições de um mesmo tipo
+- B)✔️ vetor: estrutura que suporta NxM posições de um mesmo tipo
 - C) caracter: qualquer conjunto de caracteres alfanuméricos.
 - D) inteiro: qualquer número inteiro, negativo, nulo ou positivo.
 - E) real: qualquer número real, negativo, nulo ou positivo.
 
+---
 Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
-- () "582.4"
-- ().verdadeiro.
-- ()105
-- ()-102
-- ()"0"
-- ()"informação"
-- ()0.82
+
+```
+( ) "582.4"
+```
+
+```
+( ) .verdadeiro.
+```
+
+```
+( ) 105
+```
+
+```
+( ) -102
+```
+
+```
+() "0"
+```
+
+```
+() "informação"
+```
+
+```
+() 0.82
+```
 
 - A) 2, 2, 1, 1, 1, 2, 1
-- **B**) 2, 2, 1 ,1, 2, 2, 2
+- B)✔️ 2, 2, 1 ,1, 2, 2, 2
 - C) 1, 1, 1, 2, 2, 1, 2
 - D) 1, 2, 2, 2, 1, 1, 1
 
@@ -221,7 +243,7 @@ Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
 Assinale a alternativa que contenha somente nomes válidos de variáveis
 
 - A) índice, #pagina, contexto
-- **B**) nome1, sobrenome2, senha3
+- B)✔️ nome1, sobrenome2, senha3
 - C) 2-nome, sobrenome, endereco
 - D) 1-nome, 2-sobrenome, 3-senha
 
@@ -233,12 +255,12 @@ São caracterizados como tipos_____os dados numériocos positivos ou negativos, 
 
 - A) caracteres
 - B) lógicos
-- **C**) inteiros
+- C)✔️ inteiros
 - D) reais
 
 --
 
-Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alternativa com a sequência correta.
+Considerando os tipo de dados, relacione as colunas e , a seguir, assinale a alternativa com a sequência correta.
 
 (1) Inteiro
 
@@ -248,18 +270,26 @@ Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alte
 
 (4) Lógicos
 
+```
 ( ) 35; 0; -56
+```
 
+```
 ( ).F; .V
+```
 
+```
 ( )"Rua Brigadeiro Layra"
+```
 
+```
 ( ) -0,5; 1,8; -4
+```
 
 - A) 3, 1, 4, 2
 - B) 2, 4 ,3, 1
 - C) 1, 2, 3, 4
-- D) 1, 4, 3, 2
+- D)✔️ 1, 4, 3, 2
 
 ---
 
@@ -275,7 +305,7 @@ System.out.println("O valor da variável é " + n ++);
 Executando as linhas acima, será exibida a mensagem "O valro da variável é____" e o valor final de n após a execução será___.
 
 - A) 3 e 4
-- **B**) 4 e 5 
+- B)✔️ 4 e 5 
 - C) 5 e 5
 - D) 3 e 3
 
@@ -290,7 +320,7 @@ System.out.print(resultado);
 ```
 
 - A) 5.0
-- **B**) 2.0
+- B)✔️ 2.0
 - C) 2.5
 - D) 3.0
 
@@ -306,7 +336,7 @@ System.out.printlnU(v1 + "" + v2 + "" + v3);
 
 - A) 7 2 4
 - B) 7 1 1 
-- **C**) 7 1 3
+- C)✔️ 7 1 3
 - D) 7 0 2
 
 ```
@@ -333,9 +363,9 @@ P que acontecerá se esse código for executado?
 
 - a) Um erro de tipo na variável w
 - b) Um erro de atribuição na vaiável z
-- c) Será impresso "frase1"
+- c)✔️ Será impresso "frase1"
 - d) Será impresso "frase2"
-- 
+
 ---
 
 Analise o código a seguir e infique o que será impresso na tela:
@@ -349,7 +379,7 @@ System.out.println(parte3 == parte4);
 System.out.println(parte3.equals(parte4));
 ```
 - a) CursoVideo
-- **b**) false true
+- b)✔️ false true
 - c) tru true
 - d) true false
 
@@ -366,7 +396,7 @@ boolean val4 = val1 ^ va13;
 boolean val5 = !val2 && val4;
 System.out.println(val4 + "" + val15);
 ```
-- **a**) true true
+- a)✔️ true true
 - b) false true
 - c) false false
 - d) true false
