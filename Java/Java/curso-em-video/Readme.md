@@ -1,34 +1,51 @@
-Uma pilha é uma versão limitada de uma list encadeada. Novos
-só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
-**Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
+### Variável
 
----
+- Variável é um local reservado na memória para armazenar um tipo de dado.
+- Além de ter um **nome**, a variável também precisa ter um **tipo**.
+- O tipo de dado de uma variável determina o que ela é capaz de armazenar.
 
-- **A**) java.util
-- B) java.lang
-- C) java.net
-- D) java.io
-- E) java.swt
+O tipo de uma variável é conhecido como **tipo primitivo**.
+- Consiste em 6 tipos que são: `byte`- `short`- `char`- `int`- `long`- `float`->`double`
 
----
+### Atribuição
 
-Na linguagem de programação Java, que palavra-chave cria um objeto de um classe especifica?
+Atribuir significa armazenar um valor em uma variável.
 
-- A) MAIN
-- B) PUBLIC
-- C) CLASS
-- D) PRIVATE
-- **E**) NEW
+* Em linguagem Java usamos o operador `=` para fazer uma atribuição.
 
----
+Exemplo: `X = 10;`
+
+Este comando atribui o valor `10` para a variável `X`.
+
+* Para poder atribuir um valor a uma variável, esta tem que ter sido previamente declarada.
+
+Abaixo estão alguns exemplos de declarações de variáveis. 
 
 ```
 int idade = 3;
 float sal = 1825.54f;
 char = 'G';
 boolena casado = false;
+long id = 1L;
 ```
-**typecast**
+---
+
+### Casting
+
+Casting é a conversão de tipo, ocorre quando você atribui um valor de um tipo de dados primitivo a outro tipo.
+
+- Em Java, existem dois tipos de fundição:
+
+**Ampliando o Casting** (automaticamente) - convertendo um tipo menor em um tamanho de tipo maior
+
+`byte`-> `short`-> `char`-> `int`-> `long`-> `float`->`double`
+
+**Estreitando Casting** (manualmente) - convertendo um tipo maior para um tipo de tamanho menor
+
+`double`-> `float`-> `long`-> `int`-> `char`-> `short->byte`
+
+
+**Typecast**
 ```
 int idade = (int) 3;
 float sal = (float) 1825.54;
@@ -55,70 +72,8 @@ Boolean casado = new Boolean(false);
 | Reais| float | Float | 4 bytes | 3.4e^+38 |
 | Reais| double| Double| 8 bytes | 1.8e^+308 |
 
-Em relação ao tipos básicos de dados (tipos primitivos),
-assinale a opção INCORRETA.
-
 ---
 
-- A) booleano (ou lógico): conjunto de valores false ou verdadeiro.
-- **B**) vetor: estrutura que suporta NxM posições de um mesmo tipo
-- C) caracter: qualquer conjunto de caracteres alfanuméricos.
-- D) inteiro: qualquer número inteiro, negativo, nulo ou positivo.
-- E) real: qualquer número real, negativo, nulo ou positivo.
-
-Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
-- () "582.4"
-- ().verdadeiro.
-- ()105
-- ()-102
-- ()"0"
-- ()"informação"
-- ()0.82
-
-- A) 2, 2, 1, 1, 1, 2, 1
-- **B**) 2, 2, 1 ,1, 2, 2, 2
-- C) 1, 1, 1, 2, 2, 1, 2
-- D) 1, 2, 2, 2, 1, 1, 1
-
----
-
-Assinale a alternativa que contenha somente nomes válidos de variáveis
-
-- A) índice, #pagina, contexto
-- **B**) nome1, sobrenome2, senha3
-- C) 2-nome, sobrenome, endereco
-- D) 1-nome, 2-sobrenome, 3-senha
-
----
-
-Assinale a alternativa que completa corretamente a lacuna da afirmativa a seguir.
-
-São caracterizados como tipos_____os dados numériocos positivos ou negativos, excluindo-se destes qualquer fracionário.
-
-- A) caracteres
-- B) lógicos
-- **C**) inteiros
-- D) reais
-
---
-
-Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alternativa com a sequência correta.
-
-- (1) Inteiro
-- (2) Reais
-- (3) Caracteres
-- (4) Lógicos
-- () 35; 0; -56
-- ().F; .V
-- ()"Rua Brigadeiro Layra"
-- () -0,5; 1,8; -4
-
-- A) 3, 1, 4, 2
-- B) 2, 4 ,3, 1
-- C) 1, 2, 3, 4
-- D) 1, 4, 3, 2
-
----
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
@@ -130,7 +85,6 @@ Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alte
 ---
 
 ### Operadores de atribuição
-
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
@@ -155,62 +109,6 @@ Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alte
 | ceil | Arredonda para cima | Math.ceil(4.2) | 5 |
 | round | Arredonda Aritmeticamente | Math.round(5.6) | 6 |
 
----
-
-### Exercícios de Java #07
-
-Considerando o trecho de código a seguir, contruíndo em linguagem Java, marque a opção que preencha as lacunas:
-
-```
-int n = 4;
-System.out.println("O valor da variável é " + n ++);
-```
-
-Executando as linhas acima, será exibida a mensagem "O valro da variável é____" e o valor final de n após a execução será___.
-
-- A) 3 e 4
-- **B**) 4 e 5 
-- C) 5 e 5
-- D) 3 e 3
-
----
-
-Considerando o tratamento de tipos primitivos pelo Java, analise o código a seguir e indique que o valor será impresso na tela
-
-```
-int n1 = 2, n2 = 5;
-double resultado = n2 / n1;
-System.out.print(resultado);
-```
-
-- A) 5.0
-- **B**) 2.0
-- C) 2.5
-- D) 3.0
-
----
-
-Execute as três instruções Java a seguir e marque  opção que contém o val0r que será impresso na tela:
-
-```
-int v1 = 7, v2 = v1 % 2, v3 = 2;
-v3 += v2;
-System.out.printlnU(v1 + "" + v2 + "" + v3);
-```
-
-- A) 7 2 4
-- B) 7 1 1 
-- **C**) 7 1 3
-- D) 7 0 2
-
-```
-V1 = 7
-V2 = V1(7) / 2 = 1
-V3 = 2
-V3 = 2 + V2(1) = 3
-System.out.printlnU(v1 + "" + v2 + "" + v3);
-7 1 3
-```
 ---
 
 ### Operador Ternário
@@ -270,6 +168,157 @@ maior = n1 > n2 ? n1 : n2;
 | F | V |
 
 ---
+
+## Exercícios
+
+Uma pilha é uma versão limitada de uma list encadeada. Novos
+só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
+**Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
+
+- **A**) java.util
+- B) java.lang
+- C) java.net
+- D) java.io
+- E) java.swt
+
+---
+
+Na linguagem de programação Java, que palavra-chave cria um **objeto** de um classe especifica?
+
+- A) MAIN
+- B) PUBLIC
+- C) CLASS
+- D) PRIVATE
+- **E**) NEW
+
+---
+
+Em relação ao tipos básicos de dados (tipos primitivos),
+assinale a opção INCORRETA.
+
+- A) booleano (ou lógico): conjunto de valores false ou verdadeiro.
+- **B**) vetor: estrutura que suporta NxM posições de um mesmo tipo
+- C) caracter: qualquer conjunto de caracteres alfanuméricos.
+- D) inteiro: qualquer número inteiro, negativo, nulo ou positivo.
+- E) real: qualquer número real, negativo, nulo ou positivo.
+
+Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
+- () "582.4"
+- ().verdadeiro.
+- ()105
+- ()-102
+- ()"0"
+- ()"informação"
+- ()0.82
+
+- A) 2, 2, 1, 1, 1, 2, 1
+- **B**) 2, 2, 1 ,1, 2, 2, 2
+- C) 1, 1, 1, 2, 2, 1, 2
+- D) 1, 2, 2, 2, 1, 1, 1
+
+---
+
+Assinale a alternativa que contenha somente nomes válidos de variáveis
+
+- A) índice, #pagina, contexto
+- **B**) nome1, sobrenome2, senha3
+- C) 2-nome, sobrenome, endereco
+- D) 1-nome, 2-sobrenome, 3-senha
+
+---
+
+Assinale a alternativa que completa corretamente a lacuna da afirmativa a seguir.
+
+São caracterizados como tipos_____os dados numériocos positivos ou negativos, excluindo-se destes qualquer fracionário.
+
+- A) caracteres
+- B) lógicos
+- **C**) inteiros
+- D) reais
+
+--
+
+Considerando os tipo de dados, relacione as coluas e , a seguir, assinale a alternativa com a sequência correta.
+
+(1) Inteiro
+
+(2) Reais
+
+(3) Caracteres
+
+(4) Lógicos
+
+( ) 35; 0; -56
+
+( ).F; .V
+
+( )"Rua Brigadeiro Layra"
+
+( ) -0,5; 1,8; -4
+
+- A) 3, 1, 4, 2
+- B) 2, 4 ,3, 1
+- C) 1, 2, 3, 4
+- D) 1, 4, 3, 2
+
+---
+
+### Exercícios de Java #07
+
+Considerando o trecho de código a seguir, contruíndo em linguagem Java, marque a opção que preencha as lacunas:
+
+```
+int n = 4;
+System.out.println("O valor da variável é " + n ++);
+```
+
+Executando as linhas acima, será exibida a mensagem "O valro da variável é____" e o valor final de n após a execução será___.
+
+- A) 3 e 4
+- **B**) 4 e 5 
+- C) 5 e 5
+- D) 3 e 3
+
+---
+
+Considerando o tratamento de tipos primitivos pelo Java, analise o código a seguir e indique que o valor será impresso na tela
+
+```
+int n1 = 2, n2 = 5;
+double resultado = n2 / n1;
+System.out.print(resultado);
+```
+
+- A) 5.0
+- **B**) 2.0
+- C) 2.5
+- D) 3.0
+
+---
+
+Execute as três instruções Java a seguir e marque  opção que contém o val0r que será impresso na tela:
+
+```
+int v1 = 7, v2 = v1 % 2, v3 = 2;
+v3 += v2;
+System.out.printlnU(v1 + "" + v2 + "" + v3);
+```
+
+- A) 7 2 4
+- B) 7 1 1 
+- **C**) 7 1 3
+- D) 7 0 2
+
+```
+V1 = 7
+V2 = V1(7) / 2 = 1
+V3 = 2
+V3 = 2 + V2(1) = 3
+System.out.printlnU(v1 + "" + v2 + "" + v3);
+7 1 3
+```
+---
+
 ### Exercícios de Java #08
 
 Dados as linhas a seguir:
