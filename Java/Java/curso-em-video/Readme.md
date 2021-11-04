@@ -226,6 +226,58 @@ Fluxograma é um tipo de:
 - D) análise de sistemas
 ---
 
+Exercícios de Java #02
+
+Em relação à lingágem de programação Java, complete corretamente as lacunas das sentenças abaixo, assinale a opção correta.
+
+I - O comando ____ do J2SW Development Kit executa um aplicativo Java
+
+II - O comando ____ do J2SE Development Kit compila um programa Java.
+
+III - Um programa Java deve terminar com a extensão de arquivo ____.
+
+IV - Quando um programa Java é compulado, arquivo produzido pelo compulador termina com a extensão de arquivo ____. 
+
+V - O arquivo produzido pelo compilador Java contém ____ que são executados pela Java Virtual Machine.
+
+- A)✔️ java / javac / java / class / bytecondes
+- B) javac / java / class / java / bytecodes
+- C) main / javac / java/ jar / class
+- D) java / class / rar / jar / javac
+- E) rar / jar / javac / class
+
+---
+
+Coloque Falsas (F) ou Verdadeiras (V) e em seguida assinale opção que contém a seguência correta.
+
+```
+( ) A área de memória requerida para operar com o programa compilado é menor que a requierida para a interpretação.
+```
+
+```
+( ) Um programa interpretado requer uma a´rea de memória menor do que a do programa compilado.
+```
+
+```
+( ) O Tempo para execuçpão interpretada é maior do que o tempo para execução compilada.
+```
+
+```
+( ) Um programa compilado requer um tempo de execução maior do que um programa interpretado.
+```
+
+| Compilado | Interpretado |
+| ------ | ------ |
+|+ Memória | - Memória |
+|- Tempo | + Tempo |
+
+- A✔️) F - V - V - F
+- B) V - F -F - V
+- C) F - V -V - V
+- D) V - F - V - V
+
+---
+
 Uma pilha é uma versão limitada de uma list encadeada. Novos
 só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 **Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
