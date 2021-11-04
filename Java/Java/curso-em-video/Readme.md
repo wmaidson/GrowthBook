@@ -171,6 +171,61 @@ maior = n1 > n2 ? n1 : n2;
 
 ## Exercícios
 
+Exercícios de Java #01
+
+Assinale a alternativa que contém a descição correta de algoritmo
+
+- A) Algoritmo é uma coleção de livros que de uma mesma matéria, normalmente relacionada à Engenharia de Software.
+- B) Algoritmo é uma operação matemática usada, por exemplo, para calcular a intensidade sonora media em decibéis.
+- C)✔️ Algoritmo é uma descrição das etapas de resolução de um problema ou a indicação ordenada de uma seguência de ações bem-definidas.
+- D) Algoritmo é uma definição formal de hierarquia de funcionários de uma empresa de desenvolvimento de software de grande porte.
+
+---
+
+Assinale a opção que NÃO apresenta um exemplo de Linguagem
+
+- A) Delphi (IDE) - Object Pascal
+- B) de Máquina.
+- C) Assembly
+- D)✔️ Windows XP
+- E) Visual Basic
+
+---
+
+Qual é o utilitário responsável por gerar, a prtir de um programa em uma linguagem de **alto nível**, um programa escrito em uma **linguagem de máquina** não executável
+chamado de módulo-objeto?
+
+- A) Interpretador
+- B) Depurador
+- C) Loader
+- D) Linker
+- E)✔️ Compilador
+
+Obs:
+Compilador: código fonte -> código Objeto
+Linker: código objeto -> executável
+Interpretador: código objeto -> executável
+
+---
+
+A expressão Z = X % Y corresponde a Z igual
+
+- A) a X % do valor de Y.
+- B) ao resto da divisão de Y por X.
+- C)✔️ ao resto da divisão de X por Y.
+- D) ao quociente da divisão de X por Y
+- E) ao quociente da divisão de Y por X.
+
+---
+
+Fluxograma é um tipo de:
+
+- A)✔️ Representação gráfica de algoritmos.
+- B) Informação sobre tipos de dados
+- C) Livro de análise de sistemas.
+- D) análise de sistemas
+---
+
 Uma pilha é uma versão limitada de uma list encadeada. Novos
 só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 **Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
@@ -203,6 +258,7 @@ assinale a opção INCORRETA.
 - E) real: qualquer número real, negativo, nulo ou positivo.
 
 ---
+
 Marque 1 para dados do tipo inteiro e 2 para dados de outeos tipos
 
 ```
