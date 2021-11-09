@@ -287,6 +287,52 @@ Na construção de algoritmo, como seria  representado o cálculo da multiplica�
 
 ---
 
+Assinale a alternativa que corresponde à fórmula correta para calcular a média aritmética entre 4 notas, representada pelas
+variáveis média aritmética entre 4 notas representadas pelas variáveis N1, N2, N3, N4.
+
+- A) N1 + N2 + N3 + N4 / 4
+- B) N1 + N2 + N3 + (N4 / 4)
+- C) N.(1+2+3+4) / 4
+- D)✔️ (N1 + N2 + N3 + N4) / 4
+
+---
+
+Informe se é falso (F) ou verdadeiro (V) o que se afirma sobre o diagrama de blocos abaixo. A seguir, indique a opção com a seqüência correta.
+
+<h1 align="center">
+   <img alt="diagram" src=".github/diagram.png" height="300px" />
+</h1>
+
+
+Considere:
+
+**C1** e **C2** são condições.
+
+**I1**, **I2**, **I3** e **I4** são instruções.
+
+```
+( ) I1 executa se C1 for falsa.
+```
+
+```
+( ) I2 somente executa se C2 for verdadeira.
+```
+
+```
+( ) Se C1 e C2 forem falsas a I3 executa.
+```
+
+```
+( ) I4 sempre executa, independente de C1 e C2.
+```
+
+- A) V – F – V – V
+- B) F – F – F – V
+- C)✔️ V – F – V – F
+- D) F – V – V – F
+
+---
+
 Uma pilha é uma versão limitada de uma list encadeada. Novos
 só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 **Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
