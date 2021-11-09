@@ -278,6 +278,15 @@ Coloque Falsas (F) ou Verdadeiras (V) e em seguida assinale opção que contém 
 
 ---
 
+Na construção de algoritmo, como seria  representado o cálculo da multiplicação da base pela altura e em seguida a divisão pela constante 2?
+
+- A) área = base * altura 2
+- B)✔️ área <- (base * altura)) / 2
+- C) área <- base * altura) /2
+- D) área = base * altura / 2 
+
+---
+
 Uma pilha é uma versão limitada de uma list encadeada. Novos
 só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 **Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
