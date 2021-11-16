@@ -362,6 +362,19 @@ fim_se
 
 ---
 
+| Condição 1| Condição 2 | Resultado |
+| ------ | ------ | ------ |
+| falsa | falsa | falsa |
+| verdadeiro | false | verdadeiro |
+| falsa | verdadeiro | verdadeiro |
+| verdadeiro | verdadeiro | verdadeiro |
+
+- A).e.
+- B)✔️ .ou.
+- C).if.
+- D).nao.
+---
+
 Uma pilha é uma versão limitada de uma list encadeada. Novos
 só podem ser adicionados e retirados de uma pilha pelo topo. Em Java, a classe
 **Stack** possui métodos de manipulaçao em pilhas. Em pacotes a classe Stack está definida.
