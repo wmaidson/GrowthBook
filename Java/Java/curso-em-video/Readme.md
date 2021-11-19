@@ -171,7 +171,7 @@ maior = n1 > n2 ? n1 : n2;
 
 ## Exercícios
 
-### Exercícios de Java #01
+## Exercícios de Java #01
 
 Assinale a alternativa que contém a descição correta de algoritmo
 
@@ -226,7 +226,7 @@ Fluxograma é um tipo de:
 - D) análise de sistemas
 ---
 
-### Exercícios de Java #02
+## Exercícios de Java #02
 
 Em relação à lingágem de programação Java, complete corretamente as lacunas das sentenças abaixo, assinale a opção correta.
 
@@ -333,7 +333,7 @@ Considere:
 
 ---
 
-### Exercícios de Java #03
+## Exercícios de Java #03
 
 Assinale a alternativa que contém uma expressão lógica com resultado VERDADE Considere X = 7 e Y = 4.
 
@@ -498,7 +498,9 @@ Considerando os tipo de dados, relacione as colunas e , a seguir, assinale a alt
 
 ---
 
-### Exercícios de Java #07
+## Exercícios de Java #04
+
+## Exercícios de Java #07
 
 Considerando o trecho de código a seguir, contruíndo em linguagem Java, marque a opção que preencha as lacunas:
 
