@@ -500,6 +500,42 @@ Considerando os tipo de dados, relacione as colunas e , a seguir, assinale a alt
 
 ## Exercícios de Java #04
 
+Indique a opção que contem o valor final da variável X, após a execução do trecho de programa em Português
+Estruturado mostrado ao lado. Considere os seguintes valores para as variáveis : A = 3;  B = 2; C = 8; D = 7.
+```
+se .não.( A > 3 ) .e. .não. (B  <  5) então
+X  <- 10
+senão
+  se (A  >=  2 ) .ou (C  <+ 1) então
+    x  <- (A + D) / 2
+  senão
+    se (A =  2) .ou. (B  <  7) então
+      X  <- (A + 2) * (B  - 2)
+    senão
+      X <- ((A + C) / B * (C + D))
+    fim_se
+  fim_se
+fim_se
+```
+
+- A) 10
+- B)✔️ 5
+- C) zero
+- D) 82,5
+
+---
+
+Indique a alternativa que tem a representação na forma da expressão aritmética abaixo:
+Z = 5 ^2  / (32 -13) +8.2
+
+- A) Z = 5 * 5 / (32 - 13) + 8 x 2
+- B) Z = <-(5 * 5 / (32 -13) + (8 * 2))
+- C) Z =  5 ^2 / (32 - 13) + 8 x 2
+- D)✔️ Z <- (5 ^2 ) / (32 - 13) + (8 * 2))
+---
+
+## Exercícios de Java #05
+
 ## Exercícios de Java #07
 
 Considerando o trecho de código a seguir, contruíndo em linguagem Java, marque a opção que preencha as lacunas:
