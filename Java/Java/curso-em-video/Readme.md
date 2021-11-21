@@ -532,9 +532,20 @@ Z = 5 ^2  / (32 -13) +8.2
 - B) Z = <-(5 * 5 / (32 -13) + (8 * 2))
 - C) Z =  5 ^2 / (32 - 13) + 8 x 2
 - D)✔️ Z <- (5 ^2 ) / (32 - 13) + (8 * 2))
+
 ---
 
 ## Exercícios de Java #05
+
+Seguindo a linguagem de programação Java, assinale a opção INCORRET.
+
+- (A) O java diferencia letras maiúsculas de minúsculas.
+- (B)✔️ A palavra-chave  **new** introduz uma declaração de classe e é  imediatamente  seguida pelo nome da classe
+- (C) O método **main** é  o ponto de partida de cada aplicativo java e deve iniciar com **public static void main (String args[])**
+- (D) O corpo de cada declaração de classe e delimitado por chaves
+- (E) Cada  Instrução termina com um ponto e vírgula 
+
+---
 
 ## Exercícios de Java #07
 
