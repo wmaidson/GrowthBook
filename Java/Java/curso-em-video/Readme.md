@@ -78,6 +78,7 @@ Boolean casado = new Boolean(false);
 
 ---
 
+## Operadores Aritméticos
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
@@ -85,6 +86,15 @@ Boolean casado = new Boolean(false);
 | - | Subtração | 5 - 2 | 3 |
 | * | Multiplicação | 5 * 2 | 10 |
 | / | Divisão |5 / 2| 1 |
+
+---
+
+## Operadores Unários 
+
+| Simbolo | Descrição | valor | Resultado |
+| ------ | ------ | ------ | ------ |
+| ++ | Incremento | a ++ | a = a + 1 |
+| -- | Decremento | a -- | a = a - 1 |
 
 ---
 
