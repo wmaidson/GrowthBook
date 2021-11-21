@@ -547,6 +547,27 @@ Seguindo a linguagem de programação Java, assinale a opção INCORRET.
 
 ---
 
+Uma pilha é  uma versão  limitada de uma lista encadeada. Novos nós  só  podem ser adicionados e retirados de uma pilha pelo topo.
+Em java, a classe **Stack** possuí  métodos  de manipulação  em pilhas. Em qual pacote a classe **Stack** está  definidas?
+
+- (A)✔️ java.util
+- (B) java.lang
+- (C) java.net
+- (D) java.io
+- (E) java.swt
+
+---
+
+Na linguagem de programação  java, que palavra-chave cria um objeto de uma classe específica?
+
+(A) MAIN
+(B) PUBLIC
+(C) CLASS
+(D) PRIVATE
+(E)✔️ NEW
+
+---
+
 ## Exercícios de Java #07
 
 Considerando o trecho de código a seguir, contruíndo em linguagem Java, marque a opção que preencha as lacunas:
