@@ -1,4 +1,4 @@
-### Variável
+## Variável
 
 - Variável é um local reservado na memória para armazenar um tipo de dado.
 - Além de ter um **nome**, a variável também precisa ter um **tipo**.
@@ -7,7 +7,7 @@
 O tipo de uma variável é conhecido como **tipo primitivo**.
 - Consiste em 6 tipos que são: `byte`- `short`- `char`- `int`- `long`- `float`->`double`
 
-### Atribuição
+## Atribuição
 
 Atribuir significa armazenar um valor em uma variável.
 
@@ -30,7 +30,7 @@ long id = 1L;
 ```
 ---
 
-### Casting
+## Casting
 
 Casting é a conversão de tipo, ocorre quando você atribui um valor de um tipo de dados primitivo a outro tipo.
 
@@ -60,6 +60,10 @@ Charactere letra = new Charactere('G');
 Boolean casado = new Boolean(false);
 ```
 
+---
+
+## Tipos Primitivos
+
 | Família| Tipo Primitivo | Classe Invólucro | Tamanho | Exemplo |
 | ------ | ------ | ------ | ------ | ------ |
 | Lógico | boolean | Boolean |1 bit | true |
@@ -84,7 +88,7 @@ Boolean casado = new Boolean(false);
 
 ---
 
-### Operadores de atribuição
+## Operadores de atribuição
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
@@ -96,7 +100,7 @@ Boolean casado = new Boolean(false);
 
 ---
 
-### Classe Math
+## Classe Math
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
@@ -111,7 +115,7 @@ Boolean casado = new Boolean(false);
 
 ---
 
-### Operador Ternário
+## Operador Ternário
 
 ```
 Se (n1 > n2) então
@@ -126,7 +130,7 @@ maior = n1 > n2 ? n1 : n2;
 ```
 ---
 
-### Operador Relacional
+## Operador Relacional
 
 | Simbolo | Descrição | valor | Resultado |
 | ------ | ------ | ------ | ------ |
@@ -139,7 +143,7 @@ maior = n1 > n2 ? n1 : n2;
 
 ---
 
-### Operador Lógicos
+## Operador Lógicos
 
 | p | q | p AND q |
 | ------ | ------ | ------ |
