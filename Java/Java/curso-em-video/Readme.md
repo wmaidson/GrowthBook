@@ -564,13 +564,93 @@ Em java, a classe **Stack** possuí  métodos  de manipulação  em pilhas. Em q
 
 Na linguagem de programação  java, que palavra-chave cria um objeto de uma classe específica?
 
-(A) MAIN
-(B) PUBLIC
-(C) CLASS
-(D) PRIVATE
-(E)✔️ NEW
+- (A) MAIN
+- (B) PUBLIC
+- (C) CLASS
+- (D) PRIVATE
+- (E)✔️ NEW
 
 ---
+
+## Exercícios de Java #06
+
+Em relação  aos tipos básicos de dados (**tipos primitivos**), assinale a opção INCORRETA
+
+- (A) booleano (ou lógico): conjunto de valores falso ou verdadeiro.
+- (B)✔️ vetor: estrutura que suporta **NxM** posições  de um mesmo tipo
+- (C) caractere: qualquer conjunto de caracteres alfanuméricos. 
+- (D) inteiro: qualquer número inteiro, negativo, nulo ou positivo.
+- (E) real: qualquer número, negativo, nulo ou positivo.
+
+---
+
+Marque 1 para dados do tipo inteiro e 2 para dados de outros tipos
+
+( ) "582.4"
+
+( ) .verdadeiro.
+
+( ) 105
+
+( ) -102
+
+( ) "0"
+
+( ) "informação"
+
+( ) 0.82
+
+- (A) 2, 2, 1, 1, 1, 2, 1
+- (B)✔️ 2, 2, 1, 1, 2, 2, 2
+- (C) 1, 1, 1, 2, 2, 1, 2
+- (D) 1, 2, 2, 2, 1, 1, 1
+
+---
+
+Assinale a alternativa que contenha somente nomes válidos  de variáveis
+
+- (A) índice, #página, contexto 
+- (B)✔️ nome1, sobrenome2, senha3
+- (C) 2-nome, sobrenome, endereço 
+- (D) 1-nome, 2-sobrenome, 3-senha
+
+---
+
+Assinale a alternativa que completa corretamente a lacuna da afirmativa a seguir.
+São caracterizados como tipos ____ os dados numéricos positivos ou negativos, excluindo-se estes qualquer fracionário
+
+- (A) caracteres
+- (B) lógicos
+- (C)✔️ inteiros
+- (D) reis
+
+---
+
+Considerando os tipos de dados, relacione as colunas e a seguir, assinale a alternativa com a sequencia correta
+
+(1) Inteiros
+
+(2) Reais
+
+(3) Caracteres
+
+(4) Lógicos 
+
+( ) 35; 0 ; -56
+
+( ) .F.; .V.
+
+( ) "Rua brigadeiro Lyra"
+
+( ) - 0,5; 1,8; -4
+
+- (A) 3, 1,  4,  2
+- (B) 2, 4, 3, 1
+- (C) 1, 2, 3, 4
+- (D)✔️ 1, 4, 3, 2
+
+---
+
 
 ## Exercícios de Java #07
 
