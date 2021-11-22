@@ -814,3 +814,27 @@ Escreva x,
 - (B) 10
 - (C) 25
 - (D) 20
+
+---
+
+Dada a estrutura representada abaixo
+
+```
+int a = 5 , b = 2;
+String c;
+
+if (a > b) {
+    c = "Primeiro é Maior";
+} else {
+    c = "Segundo é Maior";
+}
+```
+
+Que linha substituiria a condição apresentada?
+
+-  (A) c = (a  <  b)? "Segundo é Maior" : "Primeiro é Maior";
+- (B)✔️ c = (a <= b)? "Segundo é Maior" : "Primeiro é Maior";
+- (C) c = (a > b)? "Segundo é Maior": "Primeiro é Maior";
+- (D) c = (a >= b)? "Primeiro é Maior": "Segundo é Maior";
+
+---
