@@ -718,7 +718,7 @@ System.out.printlnU(v1 + "" + v2 + "" + v3);
 ```
 ---
 
-### Exercícios de Java #08
+## Exercícios de Java #08
 
 Dados as linhas a seguir:
 
@@ -769,3 +769,48 @@ System.out.println(val4 + "" + val15);
 - b) false true
 - c) false false
 - d) true false
+
+---
+
+## Exercícios de Java #09
+
+Analise o algoritmo abaixo
+
+```
+Linha 1    início 
+	Linha 2    inteiro Y, X, DIV;
+	Linha 3    leia(Y);
+	Linha 4    X = Y % 7;
+	Linha 5    se X > 10
+		Linha 6    então  DIV = verdadeiro;
+		Linha 7    senão  DIV = 10;
+	Linha 8    fim se;
+Linha 9    fim
+```
+
+Assinale a opção  que apresenta a linha que contém o erro na execução  do algoritmo.
+
+- (A) linha 2     inteiro Y, X, DIV.
+- (B) linha 4    X =  Y % 7.
+- (C) linha 5    se X > 10.
+- (D)✔️ linha 6    então  DIV = verdadeiro 
+- (E) linha 7    senão  DIV = 10
+
+---
+
+Indique o resultado de "x" do trecho do programa em português  estruturado, mostrado abaixo. Para as saídas considere os seguintes valores:,
+A=2; B=3; C=3; D=4
+
+```
+se .nao. (D<5) então
+x <- (A+B) * D
+senão
+x <- (C+A) * B
+fim_se
+Escreva x,
+```
+
+- (A)✔️ 15
+- (B) 10
+- (C) 25
+- (D) 20
