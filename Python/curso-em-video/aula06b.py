@@ -1,0 +1,5 @@
+a = str(input('Digite um valor'))
+# b = float(input('Digite um valor'))
+# c = bool(input('Digite um valor'))
+# d = int(input('Digite um valor'))
+print(type(a))
