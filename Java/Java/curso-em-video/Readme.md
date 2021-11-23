@@ -838,3 +838,26 @@ Que linha substituiria a condição apresentada?
 - (D) c = (a >= b)? "Primeiro é Maior": "Segundo é Maior";
 
 ---
+
+## Exercícios de Java #10
+
+3. Observe o trecho de programa.
+
+```
+public class Exemplo {
+
+  public static void main (String args[]) {
+	
+  System.out.print("Marinha do Brasil");
+  }
+}
+
+```
+
+Com base na classe Java acima, assinale a opção correta.
+
+- A) o método main necessita receber o array como parâmetro para ser executado.
+- B) Os modificadores public e class são desnecessários para executar o código.
+- C) sua execução dependerá da versão da JVM em uso.
+- D) Essa classe não será execurada pela JVM.
+- E)✔️ O método main é o primeiro a ser chamado e executado pela JVM.
