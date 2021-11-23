@@ -860,3 +860,59 @@ Com base na classe Java acima, assinale a opção correta.
 - C) sua execução dependerá da versão da JVM em uso.
 - D) Essa classe não será execurada pela JVM.
 - E)✔️ O método main é o primeiro a ser chamado e executado pela JVM.
+
+
+Observe o código Java 	abaixo:
+
+```
+class Teste {
+  public static void main(String[] args) {
+    
+    String nome = "João";
+    imprimeNome("Empty");
+  }
+
+  public static void imprimeNome(String nome) {
+    if (!nome.isEmpty()) {
+      System.out.println("Tudo bem" + nome + "?");
+    } else {
+      System.out.println("O nome é " + nome + "?");
+    } 
+  }
+}
+```
+
+Qual será a saída do programa acima?
+
+- (A) Tudo bem Empty?
+- (B) Tudo bem Joao?
+- (C)✔️ O nome é Empty?
+- (D) O nome é João? O nome é João?
+
+---
+
+O que será impresso quando o seguinte programa escrito na linguagem Java for compilado e executado?
+
+```
+class Teste {
+  public static void main(String args[]) {
+	
+  char ch;
+	
+  Sting test2 = "abcd3";
+  String test = new String("abcd");
+	
+  if (test.equals(test)) {
+    ch = (test == test2) ? test.charAt(0) : test.charAt(1);
+  } else {
+     ch = (test == test2) ? test.charAt(2) :test.charAt(3);
+  }
+  System.out.println(ch);
+  }
+}
+```
+
+- (A) a
+- (B)✔️ b
+- (C) c
+- (D) d
