@@ -1,6 +1,6 @@
 
 
-## html sintaxe
+## HTML Sintaxe
 
 | Elemento / tag | Descrição |
 | ------ | ------ |
@@ -52,3 +52,10 @@
 | `top` | Isso alinha a primeira linha do texto adjacente com a parte superior da imagem |
 | `middle` | Isso alinha a primeira linha do texto adjacente com o cntro da imagem |
 | `botton` | Isso alinha a primeira linha do texto adjacente com a parte inferior da imagem |  
+  
+## CSS Sintaxe  
+
+| Seletor / Declaração | Descrição |
+| ------ | ------ |
+| `p {font-family: Arial;}` | **selector** Seletores indicam o lemento ao qual a regra se aplica. A mesma regra é aplicada a mais de um elemento se você separar os nomes dos elementos com vírgula |
+| `p {font-family: Arial;}` | **Declarações indicam como os elementos referodos no seletor devem ser utilizados. As declarações são divididas em duas partes(uma propriedade e um valor), e são separads por dois-pontos**|
