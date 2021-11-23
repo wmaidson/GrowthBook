@@ -183,7 +183,7 @@ maior = n1 > n2 ? n1 : n2;
 
 ---
 
-## Estruturas condicionais
+## Estrutura Condicional Simples
 
 <h1 align="center">
    <img alt="estruturasimp" src=".github/estruturasimp.png" height="300px" />
@@ -191,10 +191,10 @@ maior = n1 > n2 ? n1 : n2;
 
 ---
 
-## Estruturas condicionais composta
+## Estrutura condicional Composta
 
 <h1 align="center">
-   <img alt="estruturaconc" src=".github/estruturaconc.jpg" height="300px" />
+   <img alt="estruturaconc" src=".github/estruturaconc.jpg" height="700px" />
 </h1>
 
 ---
