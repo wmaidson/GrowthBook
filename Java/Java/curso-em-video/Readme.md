@@ -183,6 +183,22 @@ maior = n1 > n2 ? n1 : n2;
 
 ---
 
+## Estruturas condicionais
+
+<h1 align="center">
+   <img alt="estruturasimp" src=".github/estruturasimp.png" height="300px" />
+</h1>
+
+---
+
+## Estruturas condicionais composta
+
+<h1 align="center">
+   <img alt="estruturaconc" src=".github/estruturaconc.jpg" height="300px" />
+</h1>
+
+---
+
 ## Estrutura de Repetição.
 
 ```
