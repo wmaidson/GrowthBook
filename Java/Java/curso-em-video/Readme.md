@@ -851,7 +851,6 @@ public class Exemplo {
   System.out.print("Marinha do Brasil");
   }
 }
-
 ```
 
 Com base na classe Java acima, assinale a opção correta.
