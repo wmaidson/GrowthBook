@@ -1063,3 +1063,62 @@ Sabendo-se que o código  acima foi escrito e executado utilizado o IDE NetBeans
 - (E) 11 e 7
 
 ---
+
+## Exercícios de Java #12
+
+
+Considerando o trecho de Fluxograma representado e mantendo a mesma estrutura de lógica  de programação qual seria a sua transcrição válida para Linguagem Java,
+
+<h1 align="center">
+   <img alt="fluxograma" src=".github/fluxograma.png" height="300px" />
+</h1>
+
+```
+(A)✔️ do {
+        c++;
+} while (c <= 10);
+```
+
+```
+(B) do { 
+        c++; 
+} while (c >10);
+```
+
+```
+(C)  while (c <= 10) {
+        c++; 
+}
+```
+
+```
+(D)  while (c >10) { 
+        c++; 
+}
+```
+
+---
+
+Qual será  o resultado impresso pelo trecho de código  escrito em Linguagem  Java?
+
+```
+public class Teste { 
+
+    public static void main(String[] args) {
+        int c = 1;
+
+        do {
+            if (c % 5 != 0) System.out.println(c);
+            else break;
+            c += 1;
+        } while (c <= 10);
+    }
+}
+```
+
+- (A) 1 2 3 4 5 6 7 8 9 10
+- (B) 1 2 3 4 5 6 7 8 9
+- (C)✔️ 1 2 3 4
+- (D) Ocorrerá  um erro de sintaxe
+
+---
