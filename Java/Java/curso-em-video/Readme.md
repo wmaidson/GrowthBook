@@ -1171,3 +1171,21 @@ D)
 ```
 
 ---
+
+Qual dos códigos  abaixo vai efetuar uma iteração  com exatamente 10 laços  utilizando uma estrutura de repetição  com variável  de controle ?
+
+```
+A) for (int c = 1; c < 10; c++)
+```
+
+```
+B)✔️ for (int c = 33; c > 13; c -= 2)
+```
+
+```
+C) for (int c = 1; c <= 10; c--)
+```
+
+```
+D) for (int c = 13; c <= 33; c += 2)
+```
