@@ -1064,6 +1064,8 @@ Sabendo-se que o código  acima foi escrito e executado utilizado o IDE NetBeans
 
 ---
 
+## Exercícios de Java #12
+
 
 Considerando o trecho de Fluxograma representado e mantendo a mesma estrutura de lógica  de programação qual seria a sua transcrição válida para Linguagem Java,
 
