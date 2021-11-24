@@ -267,6 +267,16 @@ class Contador {
 
 ---
 
+## Estrutura de Repetição com variável de controle
+
+
+<h1 align="center">
+   <img alt="For-loop-diagra" src=".github/For-loop-diagram.png" height="700px" />
+</h1>
+
+
+---
+
 ## Exercícios
 
 ## Exercícios de Java #01
