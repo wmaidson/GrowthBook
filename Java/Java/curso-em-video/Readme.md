@@ -1189,3 +1189,19 @@ C) for (int c = 1; c <= 10; c--)
 ```
 D) for (int c = 13; c <= 33; c += 2)
 ```
+
+---
+
+Qual será  o resultado impresso pelo trecho de código escrito em Linguagem de Java?
+
+```
+        for (int i = 0; i < 15; i += 2 ) {
+            if (i % 3 == 0) continue;
+            System.out.println(i);
+        }
+```
+
+- A) 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+- B) 0 2 4 6 8 10 12 14
+- C) 0 2 4 8 10 14
+- D)✔️ 2 4 8 10 14
