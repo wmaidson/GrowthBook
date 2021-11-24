@@ -1096,3 +1096,29 @@ Considerando o trecho de Fluxograma representado e mantendo a mesma estrutura de
         c++; 
 }
 ```
+
+---
+
+Qual será  o resultado impresso pelo trecho de código  escrito em Linguagem  Java?
+
+```
+public class Teste { 
+
+    public static void main(String[] args) {
+        int c = 1;
+
+        do {
+            if (c % 5 != 0) System.out.println(c);
+            else break;
+            c += 1;
+        } while (c <= 10);
+    }
+}
+```
+
+- (A) 1 2 3 4 5 6 7 8 9 10
+- (B) 1 2 3 4 5 6 7 8 9
+- (C)✔️ 1 2 3 4
+- (D) Ocorrerá  um erro de sintaxe
+
+---
