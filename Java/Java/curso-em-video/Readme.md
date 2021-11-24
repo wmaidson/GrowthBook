@@ -1132,3 +1132,42 @@ public class Teste {
 - (D) Ocorrerá  um erro de sintaxe
 
 ---
+
+## Exercícios de Java #13
+
+Considerando  o trecho de Fluxograma  representado e mantendo a mesma estrutura de lógica  de programação, qual seria a sua transcrição  válida  para Linguagem  Java?
+
+<h1 align="center">
+   <img alt="estrutura" src=".github/estrutura.png" height="300px" />
+</h1>
+
+
+```
+A))✔️
+     for (int c = 0; c <= 10; c += 2) { 
+            s += c;
+        }
+```
+
+```
+B)
+        for (int c = 0; c < 10; c += 2) {
+            s += c;
+        }
+```
+
+```
+C)
+        for (int c = 0; c <= 10; c++) {
+            s += c;
+        }
+```
+
+```
+D)
+        for (int c = 0; c >= 10; c++) {
+            s += c;
+        }
+```
+
+---
