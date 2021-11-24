@@ -1063,3 +1063,34 @@ Sabendo-se que o código  acima foi escrito e executado utilizado o IDE NetBeans
 - (E) 11 e 7
 
 ---
+
+
+Considerando o trecho de Fluxograma representado e mantendo a mesma estrutura de lógica  de programação qual seria a sua transcrição válida para Linguagem Java,
+
+<h1 align="center">
+   <img alt="fluxograma" src=".github/fluxograma.png" height="300px" />
+</h1>
+
+```
+(A)✔️ do {
+        c++;
+} while (c <= 10);
+```
+
+```
+(B) do { 
+        c++; 
+} while (c >10);
+```
+
+```
+(C)  while (c <= 10) {
+        c++; 
+}
+```
+
+```
+(D)  while (c >10) { 
+        c++; 
+}
+```
