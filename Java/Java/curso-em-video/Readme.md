@@ -1000,3 +1000,66 @@ class Teste {
 - (B)✔️ b
 - (C) c
 - (D) d
+
+---
+
+## Exercícios de Java #11
+
+Analise as seguintes variáveis em Java a seguir.
+
+```
+char c = 'c';
+int i = 10;
+double d = 10;
+long l = 1;
+String s = "Hello"
+```
+
+De acordo com as variáveis acima, qual das instruções  abaixo compila sem erro?
+
+- (A)✔️ c = c + 1;
+- (B) s += i;
+- (C) i += s;
+- (D) c += s;
+- (E)✔️ i += l;
+
+---
+
+Qual das afirmações  a seguir é  VERDADEIRA?
+
+- (A) O comando break dentro de um loop while faz com que o controle seja passado para a  próxima interação do loop.
+- (B) O comando continue dentro de um loop while faz com que o controle seja passado para o próximo  bloco de código  após o loops.
+- (C) O comando return não pode ser utilizado dentro de loops.
+- (D) Todas as alternativas acima são  verdadeiras.
+- (E)✔️ Todas as alternativas acima são falsas.
+
+---
+
+Análise  o código  em Java a seguir 
+
+```
+public class Prova {
+
+    public static void main(String[] args) {
+        int i = 1;
+        int a = 0;
+        while (i < 10) {
+            ++a;
+            i = i + 1;
+            if (a > 6) ++i;
+        }
+        System.out.println(i);
+        System.out.println(a);
+    }
+}
+```
+
+Sabendo-se que o código  acima foi escrito e executado utilizado o IDE NetBeans 6.0.1, assinale opção  correta referente aos valores impressos de `i` e de `a` respectivamente.
+
+- (A)✔️ 11 e 8
+- (B) 11 e 7
+- (C) 10 e 6
+- (D) 10 e  7
+- (E) 11 e 7
+
+---
