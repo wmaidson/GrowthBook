@@ -1205,3 +1205,37 @@ Qual será  o resultado impresso pelo trecho de código escrito em Linguagem de 
 - B) 0 2 4 6 8 10 12 14
 - C) 0 2 4 8 10 14
 - D)✔️ 2 4 8 10 14
+
+--
+
+##  Exercícios de Java #14
+
+Considerando o trecho de código  Java representando a seguir:
+
+```
+public class Vetor {
+ 
+
+    public static void main(String[] args) {
+        int v[] = {2, 0, 3, 9};
+        v[v[2]] = v[v[1]];
+        for (int i : v) {
+            System.out.println(i);
+        }
+    }
+}
+```
+
+- A)✔️ 2 0 3 2
+- B) 2 0 3 9
+- C) 2 0 0 9
+- D) 2 3 3 2
+
+---
+
+Execute o trecho Java a seguir e marque a opção  que contém  o valor que será  exibido  na tela:
+
+- A) OEDIVMEOSRUC
+- B)✔️ CURSOEMVIDEO
+- C) 0123457891011
+- D) 1101987543210
