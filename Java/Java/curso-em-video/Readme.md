@@ -1239,3 +1239,45 @@ Execute o trecho Java a seguir e marque a opção  que contém  o valor que ser�
 - B)✔️ CURSOEMVIDEO
 - C) 0123457891011
 - D) 1101987543210
+
+---
+
+##  Exercícios de Java #15
+
+Em relação  ao uso do modificador static antes do cabeçalho  de um método  Java, podemos afirmar que:
+
+- A) static serve para indicar  que os valores dos parâmetros  são  estáticos , isso é, os valores dos parâmetros  são  estáticos, isso é, não  se modificam.
+- B)✔️ Static serve para dizer que o método  pertence a classe em que foi declarada, não a uma instancia dela.
+- C) O uso da palavra static é  obrigatório , ja quê  sem ela, não  criamos métodos.
+- D) Não  é  permitido  um método  como static .
+
+---
+
+Execute o trecho Java a seguir e marque a opção  que contém  o valor que será  exibido  na tela:
+
+```
+public class Teste {
+
+    static int f1(int n) {
+        return n % 2;
+    }
+
+    static int f2(int n) {
+        return n * 2;
+    }
+
+    static int f3(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(f3(f1(3), f2(5)));
+
+    }
+}
+```
+
+- A) 16
+- B) 11.5
+- C) 8
+- D)✔️ 11
