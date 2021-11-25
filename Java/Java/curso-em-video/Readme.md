@@ -1208,7 +1208,7 @@ Qual será  o resultado impresso pelo trecho de código escrito em Linguagem de 
 
 --
 
-##  Exercícios de Java #14
+## Exercícios de Java #14
 
 Considerando o trecho de código  Java representando a seguir:
 
@@ -1242,7 +1242,7 @@ Execute o trecho Java a seguir e marque a opção  que contém  o valor que ser�
 
 ---
 
-##  Exercícios de Java #15
+## Exercícios de Java #15
 
 Em relação  ao uso do modificador static antes do cabeçalho  de um método  Java, podemos afirmar que:
 
