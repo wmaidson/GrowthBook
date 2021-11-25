@@ -1132,3 +1132,76 @@ public class Teste {
 - (D) Ocorrerá  um erro de sintaxe
 
 ---
+
+## Exercícios de Java #13
+
+Considerando  o trecho de Fluxograma  representado e mantendo a mesma estrutura de lógica  de programação, qual seria a sua transcrição  válida  para Linguagem  Java?
+
+<h1 align="center">
+   <img alt="estrutura" src=".github/estrutura.png" height="300px" />
+</h1>
+
+
+```
+A))✔️
+     for (int c = 0; c <= 10; c += 2) { 
+            s += c;
+        }
+```
+
+```
+B)
+        for (int c = 0; c < 10; c += 2) {
+            s += c;
+        }
+```
+
+```
+C)
+        for (int c = 0; c <= 10; c++) {
+            s += c;
+        }
+```
+
+```
+D)
+        for (int c = 0; c >= 10; c++) {
+            s += c;
+        }
+```
+
+---
+
+Qual dos códigos  abaixo vai efetuar uma iteração  com exatamente 10 laços  utilizando uma estrutura de repetição  com variável  de controle ?
+
+```
+A) for (int c = 1; c < 10; c++)
+```
+
+```
+B)✔️ for (int c = 33; c > 13; c -= 2)
+```
+
+```
+C) for (int c = 1; c <= 10; c--)
+```
+
+```
+D) for (int c = 13; c <= 33; c += 2)
+```
+
+---
+
+Qual será  o resultado impresso pelo trecho de código escrito em Linguagem de Java?
+
+```
+        for (int i = 0; i < 15; i += 2 ) {
+            if (i % 3 == 0) continue;
+            System.out.println(i);
+        }
+```
+
+- A) 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+- B) 0 2 4 6 8 10 12 14
+- C) 0 2 4 8 10 14
+- D)✔️ 2 4 8 10 14
