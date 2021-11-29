@@ -79,3 +79,97 @@ do objeto.
 depois remontar as `Strings` utilizando concatenação.
 
 ## Notas sobre a declaração e utilização de métodos
+
+- Há três maneiras de chamar um método — utilizar o próprio nome de um método para chamar um outro método da mesma classe; utilizar
+uma variável que contém uma referência a um objeto, seguido por um ponto (.) e o nome do método para chamar um método do objeto referenciado;
+e utilizar o nome da classe e um ponto (.) para chamar um método `static` de uma classe.
+- Há três maneiras de retornar o controle a uma instrução que chama um método. Se o método não retornar um resultado, o controle retornará
+quando o fluxo do programa alcançar a chave direita de fechamento do método ou quando a instrução
+
+```
+return;
+```
+
+for executada. Se o método retornar um resultado, a instrução
+
+```
+return expressão;
+```
+
+avalia a expressão e então imediatamente retorna o valor resultante ao chamador.
+
+## Pilhas de chamadas de método e quadros de pilha
+
+- As pilhas são conhecidas como estruturas de dados do tipo último a entrar, primeiro a sair (last-in, first-out –— LIFO) — o último item inserido
+na pilha é o primeiro item que é removido dela.
+- Um método chamado deve saber como retornar ao seu chamador, portanto o endereço de retorno do método de chamada é colocado na pilha
+de chamadas de método quando o método for chamado. Se uma série de chamadas de método ocorrer, os sucessivos endereços de retorno são
+empilhados na ordem “último a entrar, primeiro a sair”, de modo que o último método a executar será o primeiro a retornar ao seu chamador.
+- A pilha de chamadas de método contém a memória para as variáveis locais utilizadas em cada invocação de um método durante a execução
+de um programa. Esses dados são conhecidos como registro de ativação ou quadro de pilha da chamada de método. Quando uma chamada
+de método é feita, o quadro de pilha para ela é colocado na pilha de chamadas de método. Quando o método retorna ao seu chamador, a sua
+chamada do registro de ativação é retirada da pilha e as variáveis locais não são mais conhecidas para o programa.
+- Se mais chamadas de método forem feitas do que o quadro de pilha pode armazenar na pilha de chamadas de método, ocorre um erro conhecido
+como estouro de pilha. O aplicativo compilará corretamente, mas sua execução causa um estouro de pilha.
+
+## Promoção e coerção de argumentos
+
+- A promoção de argumentos converte o valor de um argumento para o tipo que o método espera receber no parâmetro correspondente.
+- Regras de promoção se aplicam a expressões que contêm valores de dois ou mais tipos primitivos e a valores de tipo primitivo passados como
+argumentos para os métodos. Cada valor é promovido para o tipo “mais alto” na expressão. Em casos em que as informações podem ser perdidas
+por causa da conversão, o compilador Java exige que se utilize um operador de coerção para forçar explicitamente que a conversão ocorra.
+
+## Estudo de caso: geração segura de números aleatórios
+
+- Objetos da classe SecureRandom (pacote java.security) podem produzir valores aleatórios não determinísticos.
+- O método nextInt SecureRandom gera um valor aleatório.
+- A classe SecureRandom fornece uma outra versão do método nextInt que recebe um argumento int e retorna um valor a partir de 0, mas
+sem incluí-lo, até o valor do argumento.
+- Números aleatórios em um intervalo podem ser gerados com
+
+```
+int number = valorDeDeslocamento + randomNumbers.nextInt(fatorDeEscalonamento);
+```
+
+onde valorDeDeslocamento especifica o primeiro número no intervalo desejado de inteiros consecutivos e fatorDeEscalonamento especifica
+quantos números estão no intervalo.
+
+- Os números aleatórios podem ser escolhidos a partir de intervalos de inteiro não consecutivos, como em
+
+```
+int number = valorDeDeslocamento +
+int number = valorDeDeslocamento +
+  diferençaEntreValores * randomNumbers.nextInt(fatorDeEscalonamento);
+```
+
+onde valorDeDeslocamento especifica o primeiro número no intervalo de valores, diferençaEntreValores representa a diferença entre números
+consecutivos na sequência e fatorDeEscalonamento especifica quantos números estão no intervalo.
+
+## Estudo de caso: um jogo de azar; apresentando tipos enum
+
+- Um tipo enum é introduzido pela palavra-chave enum e um nome de tipo. Como com qualquer classe, as chaves ({ e }) delimitam o corpo de
+uma declaração enum. Entre as chaves há uma lista de constantes enum, cada uma representando um valor único separado por vírgula. Os
+identificadores em uma enum devem ser únicos. Pode-se atribuir variáveis de um tipo enum somente a constantes do tipo enum.
+- Constantes também podem ser declaradas como variáveis private static final. Essas constantes, por convenção, são declaradas com
+todas as letras maiúsculas fazendo com que elas se destaquem no programa.
+
+## Escopo das declarações
+
+- O escopo é a parte do programa em que uma entidade, como uma variável ou um método, pode ser referida pelo seu nome. Diz-se que essa
+entidade está “no escopo” para essa parte do programa.
+- O escopo de uma declaração de parâmetro é o corpo do método em que a declaração aparece.
+- O escopo de uma declaração de variável local é do ponto em que a declaração aparece até o final desse bloco.
+- O escopo de uma declaração de variável local que aparece na seção de inicialização do cabeçalho de uma instrução `for` é o corpo da instrução
+for e as outras expressões no cabeçalho.
+- O escopo de um método ou campo de uma classe é o corpo inteiro da classe. Isso permite que os métodos da classe utilizem nomes simples para
+chamar os outros métodos da classe e acessem os campos da classe.
+- Qualquer bloco pode conter declarações de variável. Se uma variável local ou um parâmetro em um método tiver o mesmo nome de um campo,
+este permanece sombreado até que o bloco termine a execução.
+
+## Sobrecarga de método
+
+
+- O Java permite métodos sobrecarregados em uma classe, desde que os métodos tenham diferentes conjuntos de parâmetros (determinados pelo
+número, ordem e tipo de parâmetros).
+- Métodos sobrecarregados são distinguidos por suas assinaturas — combinações dos nomes e número, tipos e ordem dos parâmetros dos métodos,
+mas não pelos tipos de retorno.
