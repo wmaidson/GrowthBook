@@ -20,6 +20,8 @@ public class RollDie {
 
         for (int roll = 1; roll <= 6000000; roll++) { // número entre 1 e 6
 
+            int face = 1 + randomNumbers.nextInt(6); // número entre 1 e 6ÿ
+
             // usa o valor 1–6 para as faces a fim de determinar qual contador incrementar
 
             switch (face) {
