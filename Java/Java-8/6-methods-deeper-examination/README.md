@@ -6,6 +6,10 @@
 |[RandomIntegers](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/6-methods-deeper-examination/charapter-06/src/RandomIntegers.java)| Inteiros aleatórios deslocados e escalonados.|
 |[RollDie](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/6-methods-deeper-examination/charapter-06/src/RollDie.java)| Rola um dado de seis lados 6.000.000 vezes |
 |[Craps](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/6-methods-deeper-examination/charapter-06/src/Craps.java)| Craps simula o jogo de dados craps |
+|[ Scope](https://github.com/wmaidson/GrowthBook/blob/1b1f6e6b9bf9367e249bb50a991607b7f4878732/Java/Java-8/6-methods-deeper-examination/charapter-06/src/Scope.java)|  A classe Scope demonstra os escopos de campo e de variável local. |
+|[MethodOverload](https://github.com/wmaidson/GrowthBook/blob/1b1f6e6b9bf9367e249bb50a991607b7f4878732/Java/Java-8/6-methods-deeper-examination/charapter-06/src/MethodOverload.java)|  Declarações de métodos sobrecarregados. |
+|[DrawSmiley](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/6-methods-deeper-examination/charapter-06/src/DrawSmiley.java)| Desenhando um rosto sorridente com cores e formas preenchidas. |
+|[DrawSmileyTest](https://github.com/wmaidson/GrowthBook/blob/1b1f6e6b9bf9367e249bb50a991607b7f4878732/Java/Java-8/6-methods-deeper-examination/charapter-06/src/DrawSmileyTest.java)| Aplicativo de teste que exibe um rosto sorridente. |
 
 ## Resumo
 
