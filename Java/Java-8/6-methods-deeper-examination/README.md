@@ -168,7 +168,6 @@ este permanece sombreado até que o bloco termine a execução.
 
 ## Sobrecarga de método
 
-
 - O Java permite métodos sobrecarregados em uma classe, desde que os métodos tenham diferentes conjuntos de parâmetros (determinados pelo
 número, ordem e tipo de parâmetros).
 - Métodos sobrecarregados são distinguidos por suas assinaturas — combinações dos nomes e número, tipos e ordem dos parâmetros dos métodos,
