@@ -25,3 +25,14 @@
 ### Natural
 
 - Mais fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes implementação.
+
+---
+
+## Classe
+
+Define os atributos  e métodos comuns que serão compartilhados por um objeto
+
+## Objeto
+
+É uma instância de uma classe
+
