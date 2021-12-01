@@ -115,3 +115,14 @@
 |[VarargsTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/VarargsTest.java)| Utilizando listas de argumentos de comprimento variável. |
 |[DrawRainbow](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/DrawRainbow.java)| Desenhando um arco-íris com arcos e um array de cores. |
 |[DrawRainbowTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/DrawRainbowTest.java)| Aplicativo de teste para exibir um arco-íris. |
+
+
+## Capítulo 8
+#### Classes e objetos: um exame mais profundo
+
+| Nome | Descrição |
+| ------ | ------ |
+|[Time1](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/8-Classes-and-Objects-An-Exam-deeper/chapter-08/src/Time1.java)| Declaração de classe Time1 mantém a data/hora no formato de 24 horas. |
+|[Time1Test](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/8-Classes-and-Objects-An-Exam-deeper/chapter-08/src/Time1Test.java)| objeto Time1 utilizado em um aplicativo. |
+|[MemberAccessTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/8-Classes-and-Objects-An-Exam-deeper/chapter-08/src/MemberAccessTest.java)| Membros privados da classe Time1 não são acessíveis. |
+|[ThisTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/8-Classes-and-Objects-An-Exam-deeper/chapter-08/src/ThisTest.java)| this utilizado implícita e explicitamente para referência a membros de um objeto. | 
