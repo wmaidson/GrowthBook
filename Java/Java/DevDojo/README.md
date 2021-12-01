@@ -73,3 +73,19 @@
 | Nome | Descrição |
 | ------ | ------ |
 |[LogicosAND ]()| Operadores Lógicos OR|
+
+
+## Capítulo 19
+#### Operadores pt 05 - Atribuição
+
+| Nome | Descrição |
+| ------ | ------ |
+|[Atribuicao ]()| Operador de Atribuição |
+
+
+## Capítulo 20
+#### Estruturas Condicionais pt 01 - IF
+
+| Nome | Descrição |
+| ------ | ------ |
+|[TesteIF]()| IF |
