@@ -89,3 +89,31 @@
 | Nome | Descrição |
 | ------ | ------ |
 |[TesteIF]()| IF |
+
+## Capítulo 21
+#### Estruturas Condicionais pt 02 - ELSE IF
+
+| Nome | Descrição |
+| ------ | ------ |
+|[IFeELSE]()| ELSE IF |
+
+## Capítulo 22
+#### Estruturas Condicionais pt 03 - Operador ternário
+
+| Nome | Descrição |
+| ------ | ------ |
+|[EstruturaCondicionais]()| Operador ternário |
+
+## Capítulo 23
+#### Estruturas Condicionais pt 04 - Tabela Verdade e exercício
+
+| Nome | Descrição |
+| ------ | ------ |
+|[TabelaVerdade]()|  Tabela Verdade e exercício |
+
+## Capítulo 24
+#### Estruturas Condicionais pt 04 - Tabela Verdade e exercício
+
+| Nome | Descrição |
+| ------ | ------ |
+|[Resolucao]()| ^Resolução do exercícios |
