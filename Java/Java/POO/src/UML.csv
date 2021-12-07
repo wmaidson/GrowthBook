@@ -1,0 +1,21 @@
+Id,Nome,Biblioteca de formas,ID da p´ágina,Contido por,Grupo,Origem da linha,Destino da linha,Seta de origem,Seta de destino,Área de texto 1
+1,Página,,,,,,,,,Página 1
+2,Processo,Formas de Fluxograma,1,,,,,,,Caneta
+3,Processo,Formas de Fluxograma,1,,,,,,,
+4,Processo,Formas de Fluxograma,1,,,,,,,
+5,Texto,Padrão,1,,,,,,,"Modelo
+cor
+ponta
+carga
+tampada"
+6,Texto,Padrão,1,,,,,,,"escrever()
+rabiscar()
+pintar()
+tampar()
+destanpar()"
+7,Texto,Padrão,1,,,,,,,Classe
+8,Texto,Padrão,1,,,,,,,Atributo
+9,Texto,Padrão,1,,,,,,,Método
+10,Linha,,1,,,7,2,None,Arrow,
+11,Linha,,1,,,9,4,None,Arrow,
+12,Linha,,1,,,8,3,None,Arrow,
