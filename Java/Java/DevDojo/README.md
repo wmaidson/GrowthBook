@@ -116,4 +116,4 @@
 
 | Nome | Descrição |
 | ------ | ------ |
-|[Resolucao]()| ^Resolução do exercícios |
+|[Resolucao]()| Resolução do exercícios |
