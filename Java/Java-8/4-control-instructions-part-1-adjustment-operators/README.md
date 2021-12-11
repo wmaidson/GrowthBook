@@ -2,10 +2,10 @@
 
 | Nome | Descrição |
 | ------ | ------ |
-|[NestedInstructionSelection.java](https://github.com/wmaidson/GrowthBook/blob/5751f14ffa6b7bcd1df2b29fb9686f7ea9493d52/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/NestedInstructionSelection.java)| Instruções `if...else` aninhadas com espaçamento |
-|[OtherNested](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/charapter-04/src/OtherNested.java)|Instruções `if...else` aninhadas com recuo |
+|[NestedInstructionSelection.java](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/NestedInstructionSelection.java)| Instruções `if...else` aninhadas com espaçamento |
+|[OtherNested](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/OtherNested.java)|Instruções `if...else` aninhadas com recuo |
 |[ProblemSwingingElse](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/ProblemSwingingElse.java)| O problema do `else` oscilante |
-|[ProblemSwingingElseTwo](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/ProblemSwingingElseTwo.java)| O problema do `if...else` sem chaves |
+|[ProblemSwingingElseTwo](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/ProblemSwingingElse.java)| O problema do `if...else` sem chaves |
 |[SolutionSwingingElse](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/SolutionSwingingElse.java)| Solução do `if...else` com chaves|
 |[Blocks](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/Blocks.java)| Instruções contidas em par de chaves (como o corpo de um método) formam um bloco|
 |[ConditionalOperator](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/4-control-instructions-part-1-adjustment-operators/chapter-04/src/ConditionalOperator.java)| Operador condicional |
