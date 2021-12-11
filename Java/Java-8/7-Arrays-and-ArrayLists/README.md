@@ -2,29 +2,29 @@
 
 | Nome | Descrição |
 | ------ | ------ |
-|[BarChart](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/BarChart.java)| Programa de impressão de gráfico de barras. |
-|[Card](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/Card.java)| Classe Card representa uma carta de baralho. |
-|[DeckOfCards](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/DeckOfCards.java)| Classe DeckOfCards representa um baralho. |
-|[DeckOfCardsTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/DeckOfCardsTest.java)| Embaralhando e distribuindo cartas. |
-|[EnhancedForTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/EnhancedForTest.java)| Utilizando a instrução for aprimorada para somar inteiros em um array. |
-|[InitArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/InitArray.java)| Inicializando os elementos de um array como valores padrão de zero. |
-|[NewInitArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/NewInitArray.java)| Inicializando os elementos de um array com um inicializador de array. |
-|[OtherInitArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/OtherInitArray.java)| Calculando os valores a serem colocados nos elementos de um array. |
-|[RollDie](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/RollDie.java)| Programa de jogo de dados utilizando arrays em vez de switch. |
-|[StudentPoll](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/StudentPoll.java)| Programa de análise de enquete. |
-|[SumArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/SumArray.java)| Calculando a soma dos elementos de um array. |
-|[ArrayListCollection](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/ArrayListCollection.java)| Demonstração da coleção ArrayList<T> genérica. |
-|[ArrayManipulations](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/ArrayManipulations.java)| Métodos da classe Arrays e System.arraycopy. |
-|[GradeBook](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/GradeBook.java)| classe GradeBook utilizando um array para armazenar notas de teste. |
-|[GradeBookTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/GradeBookTest.java)| GradeBookTest cria um objeto GradeBook utilizando um array de notas, e, então, invoca o método processGrades para analisá-las. |
-|[GradeBook2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/GradeBook2.java)| classe GradeBook utilizando um array bidimensional para armazenar notas. |
-|[GradeBookTest2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/GradeBookTest2.java)| GradeBookTest cria o objeto GradeBook utilizando um array bidimensional das notas e, então, invoca o método processGrades para analisá-las. |
-|[InitArray2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/InitArray2.java)| Inicializando arrays bidimensionais. |
-|[InitArray3](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/InitArray3.java)| Inicializando um array com argumentos de linha de comando. |
-|[PassArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/PassArray.java)| Passando arrays e elementos do arrays individuais aos métodos. |
-|[VarargsTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/VarargsTest.java)| Utilizando listas de argumentos de comprimento variável. |
-|[DrawRainbow](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/DrawRainbow.java)| Desenhando um arco-íris com arcos e um array de cores. |
-|[DrawRainbowTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/charapter-07/src/DrawRainbowTest.java)| Aplicativo de teste para exibir um arco-íris. |
+|[BarChart](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/BarChart.java)| Programa de impressão de gráfico de barras. |
+|[Card](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/Card.java)| Classe Card representa uma carta de baralho. |
+|[DeckOfCards](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/DeckOfCards.java)| Classe DeckOfCards representa um baralho. |
+|[DeckOfCardsTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/DeckOfCardsTest.java)| Embaralhando e distribuindo cartas. |
+|[EnhancedForTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/EnhancedForTest.java)| Utilizando a instrução for aprimorada para somar inteiros em um array. |
+|[InitArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/InitArray.java)| Inicializando os elementos de um array como valores padrão de zero. |
+|[NewInitArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/NewInitArray.java)| Inicializando os elementos de um array com um inicializador de array. |
+|[OtherInitArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/OtherInitArray.java)| Calculando os valores a serem colocados nos elementos de um array. |
+|[RollDie](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/RollDie.java)| Programa de jogo de dados utilizando arrays em vez de switch. |
+|[StudentPoll](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/StudentPoll.java)| Programa de análise de enquete. |
+|[SumArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/SumArray.java)| Calculando a soma dos elementos de um array. |
+|[ArrayListCollection](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/ArrayListCollection.java)| Demonstração da coleção ArrayList<T> genérica. |
+|[ArrayManipulations](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/ArrayManipulations.java)| Métodos da classe Arrays e System.arraycopy. |
+|[GradeBook](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/GradeBook.java)| classe GradeBook utilizando um array para armazenar notas de teste. |
+|[GradeBookTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/GradeBookTest.java)| GradeBookTest cria um objeto GradeBook utilizando um array de notas, e, então, invoca o método processGrades para analisá-las. |
+|[GradeBook2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/GradeBook2.java)| classe GradeBook utilizando um array bidimensional para armazenar notas. |
+|[GradeBookTest2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/GradeBookTest2.java)| GradeBookTest cria o objeto GradeBook utilizando um array bidimensional das notas e, então, invoca o método processGrades para analisá-las. |
+|[InitArray2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/InitArray2.java)| Inicializando arrays bidimensionais. |
+|[InitArray3](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/InitArray3.java)| Inicializando um array com argumentos de linha de comando. |
+|[PassArray](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/PassArray.java)| Passando arrays e elementos do arrays individuais aos métodos. |
+|[VarargsTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/VarargsTest.java)| Utilizando listas de argumentos de comprimento variável. |
+|[DrawRainbow](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/DrawRainbow.java)| Desenhando um arco-íris com arcos e um array de cores. |
+|[DrawRainbowTest](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/7-Arrays-and-ArrayLists/chapter-07/src/DrawRainbowTest.java)| Aplicativo de teste para exibir um arco-íris. |
 
 ## Resumo
 
