@@ -1,0 +1,1 @@
+print("Bem vindp np jogo de Adivinhação")
