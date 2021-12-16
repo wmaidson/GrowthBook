@@ -81,3 +81,12 @@ Porta de comunicação 22
 - Na primeira vez que um cliente se conecta a uma host remoto, uma cópia da chave de host é armazenada em sua conta local.
 Assim, toda cez que o cliente se reconectar a esse host remoto, o cliente SSH verificará a identidade dele usando essa chave pública.
 Essa técnia ajida a evitar, por exmplo, ataques do tipo 'main-in-the-middle'
+
+##  Protocolo SSH
+
+Protocolo SSH(Secure Shell) conexão por chave publica e criptografia assimétrica no Linux
+
+Podemos nos conectar por senha a um servidor SSH. Porem, senhas apresentam problema, como:
+- Para que uma senha segura, deve ser linga e aleatória (são difíceis de memorizar!);
+- Senhas podem ser capturadas se o host de destino for comprometido;
+- Os sistemas operacionais geralmente so suportam uma senha por conta e usuário, o que e um problema para contas que são compartilhadas por mais de um usuário (root, por exemplo). Para eliminar esses problemas, o SSH suporta autenticação de chaves publicas usando chaves criptográficas 
