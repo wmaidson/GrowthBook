@@ -20,6 +20,8 @@
 | Abstração | Abstração é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais. Em modelagem orientada a objetos, uma classe é uma abstração de **entidades** existentes no domínio do sistema de software. |
 | Variável | Na programação, uma variável é um objeto (uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão.[1] Enquanto as variáveis só "existem" em tempo de execução, elas são associadas a "nomes", chamados identificadores, durante o tempo de desenvolvimento. |
 | Variável membro | Na programação orientada a objetos , uma variável de membro (às vezes chamada de campo de membro ) é uma variável associada a um objeto específico e acessível para todos os seus métodos ( funções de membro ). |
+| Construtor | o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno nem mesmo `void`. O construtor é unicamente invocado no momento da criação do objeto através do operador `new`. O retorno do operador new é uma referência para o objeto recém-criado. |
+
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
 
