@@ -22,6 +22,7 @@
 | Variável membro | Na programação orientada a objetos , uma variável de membro (às vezes chamada de campo de membro ) é uma variável associada a um objeto específico e acessível para todos os seus métodos ( funções de membro ). |
 | Construtor | o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno nem mesmo `void`. O construtor é unicamente invocado no momento da criação do objeto através do operador `new`. O retorno do operador new é uma referência para o objeto recém-criado. |
 | Método predicado | Um método de acesso que testa se uma condição é verdadeira ou falsa, um exemplo é o método `isEmpty` da classe `ArrayList` que retorna true se a `ArrayList` estiver vazia e false caso contrário. Um programa pode testar isEmpty antes de tentar ler outro item de um `ArrayList` |
+| Composição | Uma classe pode ter referência a objetos de outras classes como membros. Isso é chamado de composição e, às vezes, é referido como um **relacionamento tem um** Por exemplo um objeto AlarmClock precisa saber a data\hora atual e a data\hora que supostamente deve soar o alarme, por exemplo hora atual 15:00 hora de soar o alarme 16:00 |
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
 
