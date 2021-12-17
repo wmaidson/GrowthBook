@@ -21,7 +21,7 @@
 | Variável | Na programação, uma variável é um objeto (uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão.[1] Enquanto as variáveis só "existem" em tempo de execução, elas são associadas a "nomes", chamados identificadores, durante o tempo de desenvolvimento. |
 | Variável membro | Na programação orientada a objetos , uma variável de membro (às vezes chamada de campo de membro ) é uma variável associada a um objeto específico e acessível para todos os seus métodos ( funções de membro ). |
 | Construtor | o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno nem mesmo `void`. O construtor é unicamente invocado no momento da criação do objeto através do operador `new`. O retorno do operador new é uma referência para o objeto recém-criado. |
-
+| Método predicado | Um método de acesso que testa se uma condição é verdadeira ou falsa, um exemplo é o método `isEmpty` da classe `ArrayList` que retorna true se a `ArrayList` estiver vazia e false caso contrário. Um programa pode testar isEmpty antes de tentar ler outro item de um `ArrayList` |
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
 
