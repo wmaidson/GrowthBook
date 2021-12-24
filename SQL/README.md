@@ -1,5 +1,7 @@
 
 
+## Execução
+
 | Nome | Descrição |
 | ------ | ------ |
 | `mysql -u root -p`| Iniciar o MySQL |
@@ -28,10 +30,20 @@
 | `mysql -h 127.0.0.1 -P 3307 -u root -p Integration ation` | Conexão via Host , Porta e Banco de Dados |
 | `mysql -h 127.0.0.1 -P 3307 -u root -p `| Conexão via Host , Porta e Banco de Dados |
 
+## Configuração
 
-
-
-
-
+| Nome | Descrição |
+| ------ | ------ |
+| `select user,host from mysql.user;`| Visualizar os usuários disponíveis na DB |
+| `mysql_secute_installation `| Script de auxilio de segurança  |
+| `identified by 'root'; grant all privileges on * .* to root@'%' `| Alterar senha root |
+| `flush privileges; `| Atualizar permissões do servidor |
+| `mysql> grant all on my_db.* to my_user@localhost identified by 'my_pass'; `| Criar usuário no mysql e permissões de acesse ao mysql |
+| ` mysql > REVOKE ALL PRIVILEGES ON myuser . * FROM 'my_user'@'localhost';`| Para remover todas as permissões de um usuário de um banco de dados |
+| `mysql > SHOW GRANTS FOR name_user@localhost; `| Apagar usuário |
+| `mysqlcheck -u root -p --auto-repair --optimize --all-databases`| Otimizar bancos de dados |
+| `REPAIR TABLE jas_options; CHECK TABLE jas_options;`| Reparando tabela |
+| `REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'name_user'@'%';`| Remove todas as permissões de um usuário |
+| `[client] user=root password=suasenha socket=/var/run/mysqld/mysqld.sock ` | root sem senha, crie o arquivo ~/.my.cnf |
 
 
