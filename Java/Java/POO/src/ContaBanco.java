@@ -117,6 +117,7 @@ public class ContaBanco {
     }
 
     public void estadoAtual(){
+        System.out.println("-----------------------------");
         System.out.println("Conta: " + this.getNumConta());
         System.out.println("Tipo: " + this.tipo);
         System.out.println("Dono: " + this.getDono());
