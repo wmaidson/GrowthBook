@@ -26,5 +26,7 @@
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
 
+lazy initialization
+
 
 
