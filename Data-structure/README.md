@@ -3,5 +3,5 @@
 É uma estrutura que armazena e organiza dados, informações de modo que os dados possam ser acessados e maniúlados de forma eficiente
 
 <h1 align="center">
-   <img alt="illus" src=".github/illus.png" height="300px" />
+   <img alt="illus" src=".github/illus.png" height="500px" />
 </h1>
