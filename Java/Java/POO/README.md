@@ -29,4 +29,5 @@ Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
 lazy initialization
 http://www.inf.furb.br/~poo/tutoriais/poo-lab6.html
 
+Is Java package level scope useful
 
