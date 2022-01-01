@@ -25,9 +25,3 @@
 | Composição | Uma classe pode ter referência a objetos de outras classes como membros. Isso é chamado de composição e, às vezes, é referido como um **relacionamento tem um** Por exemplo um objeto AlarmClock precisa saber a data\hora atual e a data\hora que supostamente deve soar o alarme, por exemplo hora atual 15:00 hora de soar o alarme 16:00 |
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
-
-lazy initialization
-http://www.inf.furb.br/~poo/tutoriais/poo-lab6.html
-
-Is Java package level scope useful
-
