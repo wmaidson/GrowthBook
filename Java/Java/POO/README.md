@@ -30,7 +30,7 @@
 | Polimorfismo | Polimorfismo significa "muitas formas", é o termo definido em linguagens orientadas a objeto, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes. |
 | Interface | Uma interface na linguagem de programação Java é um tipo abstrato usado para especificar um comportamento que as classes devem implementar. |
 | Acoplamento | Em engenharia de software, acoplamento ou dependência é o grau de interdependência entre módulos de software, uma medida de quão intimamente ligadas estão duas rotinas ou módulos, a força das relações entre módulos. |
-| Coesão | Coesão está, na verdade, ligado ao princípio da responsabilidade única, que foi introduzido por Robert C. Martin no inicio dos anos 2000 e diz que uma classe deve ter apenas uma única responsabilidade e realizá-la de maneira satisfatória, ou seja, uma classe não deve assumir responsabilidades que não são suas . |
+| Coesão | Coesão está, na verdade, ligado ao princípio da responsabilidade única, que foi introduzido por **Robert C. Martin** no inicio dos anos 2000 e diz que uma classe deve ter apenas uma única responsabilidade e realizá-la de maneira satisfatória, ou seja, uma classe não deve assumir responsabilidades que não são suas . |
 
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
