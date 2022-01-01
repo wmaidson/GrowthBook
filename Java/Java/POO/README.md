@@ -24,6 +24,7 @@
 | Método predicado | Um método de acesso que testa se uma condição é verdadeira ou falsa, um exemplo é o método `isEmpty` da classe `ArrayList` que retorna true se a `ArrayList` estiver vazia e false caso contrário. Um programa pode testar isEmpty antes de tentar ler outro item de um `ArrayList` |
 | Composição | Uma classe pode ter referência a objetos de outras classes como membros. Isso é chamado de composição e, às vezes, é referido como um **relacionamento tem um** Por exemplo um objeto AlarmClock precisa saber a data\hora atual e a data\hora que supostamente deve soar o alarme, por exemplo hora atual 15:00 hora de soar o alarme 16:00 |
 | Encapsulamento | Conceitua-se encapsulamento como sendo o processo utilizado para proteger os campos e operações de uma classe (atributos e métodos), permitindo que apenas os membros públicos - em Java métodos Get / Set - sejam acessados pelos usuários de determinada classe |
+| Herança | A herança é um princípio da POO que permite a criação de novas classes a partir de outras previamente criadas. Essas novas classes são chamadas de subclasses, ou classes derivadas, e as classes já existentes, que deram origem às subclasses, são chamadas de superclasses, ou classes base |
 
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
