@@ -10,13 +10,12 @@ public class Lutador {
     private int derrotas;
     private int empates;
 
-    public Lutador(String nome, String nacionalidade, int idade, float altura, float peso, String categoria, int vitorias, int derrotas, int empates) {
+    public Lutador(String nome, String nacionalidade, int idade, float altura, float peso, int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
         this.altura = altura;
         this.setPeso(peso);
-        this.categoria = categoria;
         this.vitorias = vitorias;
         this.derrotas = derrotas;
         this.empates = empates;
@@ -108,10 +107,10 @@ public class Lutador {
 
     public void apresentar() {
         System.out.println("-----------------------------------------------------");
-        System.out.println("CHEGOU A HORA! Apreentamos o lutador" + this.getNome());
+        System.out.println("CHEGOU A HORA! Apreentamos o lutador " + this.getNome());
         System.out.println("Diretamente da " + this.getNacionalidade());
-        System.out.println("Com " + this.getIdade() + "anos e " + this.getAltura());
-        System.out.println("Pesando  " + this.getPeso() + "Kg");
+        System.out.println("Com " + this.getIdade() + " anos e " + this.getAltura() + "m de altura");
+        System.out.println("Pesando " + this.getPeso() + "Kg");
         System.out.println(this.getVitorias() + " Vitorias");
         System.out.println(this.getDerrotas() + " Derrotas");
         System.out.println(this.getEmpates() + " Empates");
