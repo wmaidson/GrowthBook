@@ -3,10 +3,8 @@ public class UltraEmojiCombat {
 
         Lutador l[] = new Lutador[6];
 
-
-          l[0] = new Lutador("Pretty Boy", "Franca", 31, 1.75f,
+        l[0] = new Lutador("Pretty Boy", "Franca", 31, 1.75f,
                 68.9f, 11, 2, 1);
-
 
         l[1] = new Lutador("PutScript", "Brasil", 29, 1.68f,
                 578f, 14, 2, 3);
