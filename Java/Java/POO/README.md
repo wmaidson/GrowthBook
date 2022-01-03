@@ -32,6 +32,10 @@
 | Interface | Uma interface na linguagem de programação Java é um tipo abstrato usado para especificar um comportamento que as classes devem implementar. |
 | Acoplamento | Em engenharia de software, acoplamento ou dependência é o grau de interdependência entre módulos de software, uma medida de quão intimamente ligadas estão duas rotinas ou módulos, a força das relações entre módulos. |
 | Coesão | Coesão está, na verdade, ligado ao princípio da responsabilidade única, que foi introduzido por **Robert C. Martin** no inicio dos anos 2000 e diz que uma classe deve ter apenas uma única responsabilidade e realizá-la de maneira satisfatória, ou seja, uma classe não deve assumir responsabilidades que não são suas . |
+| Agregação | Tipo de relacionamento com características todo-parte, onde existe um grau de acoplamento entre o todo e as partes menos intenso, podendo haver certo grau de independência entre eles. |
+| Composição | Tipo de relacionamento com características todo-parte, onde existe um alto grau de coesão entre o todo e as partes, com total grau de dependência entre eles (todo e as partes). Desta forma, se o todo não existir, as partes também não existirão. |
+| Associação | Uma associação é um vínculo que permite que objetos de uma ou mais classes se relacionem. Através destes vínculos é possível que um objeto convoque comportamentos e estados de outros objetos. |
+
 
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
