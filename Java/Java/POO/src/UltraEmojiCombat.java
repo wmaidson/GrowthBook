@@ -1,4 +1,4 @@
-public class UtraEmojiCombat {
+public class UltraEmojiCombat {
     public static void main(String[] args) {
 
     }
