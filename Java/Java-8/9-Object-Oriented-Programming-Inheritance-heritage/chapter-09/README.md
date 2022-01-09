@@ -10,7 +10,7 @@
 |[BasePlusCommissionEmployee3](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/9-Object-Oriented-Programming-Inheritance-heritage/chapter-09/src/BasePlusCommissionEmployee3.java) | BasePlusCommissionEmployee herda variáveis de instância protected de CommissionEmployee2.|
 |[CommissionEmployee2](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/9-Object-Oriented-Programming-Inheritance-heritage/chapter-09/src/CommissionEmployee2.java) | A classe CommissionEmployee usa métodos para manipular suas variáveis de instância private. |
 |[BasePlusCommissionEmployee4 ](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/9-Object-Oriented-Programming-Inheritance-heritage/chapter-09/src/BasePlusCommissionEmployee4.java) |A classe BasePlusCommissionEmployee é herdada de CommissionEmployee2 e acessa os dados private da superclasse via métodos public herdados. |
-|[LabelDemo]() | Os programas frequentemente utilizam rótulos quando precisam exibir informações ou instruções para o usuário em uma interface gráfica com ele. |
+|[LabelDemo](https://github.com/wmaidson/GrowthBook/blob/master/Java/Java-8/9-Object-Oriented-Programming-Inheritance-heritage/chapter-09/src/LabelDemo.java) | Os programas frequentemente utilizam rótulos quando precisam exibir informações ou instruções para o usuário em uma interface gráfica com ele. |
 
 
 ## Resumo
