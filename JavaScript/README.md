@@ -95,3 +95,20 @@ Exemplo:
 | `false` | Outro valor booleano |
 | `/javascript/gi` | Uma "expressão regular" literal (para comparação de padrões) |
 | `null` | Ausência de um objeto |
+
+## Identificadores
+
+Um **identificador** é simplesmente um nome. Em JavaScript, os identificadores são usados para dar
+nomes a variáveis e funções e para fornecer rótulos para certos laços no código JavaScript. Um identificador
+JavaScript deve começar com uma letra, um sublinhado (`_`) ou um cifrão (`$`). Os caracteres
+subsequentes podem ser letras, dígitos, sublinhados ou cifrões. (Os dígitos não são permitidos como
+primeiro caractere, para que JavaScript possa distinguir identificadores de números facilmente.) Todos
+estes são identificadores válidos:
+
+```
+i
+my_variable_name
+v13
+_dummy
+$str
+```
