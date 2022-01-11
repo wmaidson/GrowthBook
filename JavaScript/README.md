@@ -112,3 +112,19 @@ v13
 _dummy
 $str
 ```
+## Tipos, valores e variáveis
+
+
+Os programas de computador funcionam manipulando valores, como o número 3,14 ou o texto
+“Olá Mundo”. Os tipos de valores que podem ser representados e manipulados em uma linguagem
+de programação são conhecidos como **tipos** e uma das características mais fundamentais de uma linguagem
+de programação é o conjunto de tipos que ela aceita.
+Quando um programa precisa manter um valor para uso futuro, ele atribui o valor (ou “armazena” o valor) a uma **variável**.
+
+Os tipos de JavaScript podem ser divididos em duas categorias: **tipos primitivos** e **tipos de objeto**.
+
+Os valores especiais `null` e `undefined` de JavaScript são valores primitivos, mas não são números, nem
+strings e nem booleanos. Cada valor normalmente é considerado como **membro único de seu próprio
+tipo especial**.
+
+Qualquer valor em JavaScript que não seja número, string, booleano, `null` ou `undefined` é um objeto.
