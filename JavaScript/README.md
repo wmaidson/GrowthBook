@@ -169,3 +169,13 @@ Em JavaScript, qualquer função pode retornar um objeto. Mas, quando isso acont
 Tecnicamente, em JavaScript apenas os objetos
 possuem métodos. Mas números, strings e valores booleanos se comportam como se tivessem métodos Em JavaScript, `null` e `undefined` são os únicos valores
 em que métodos não podem ser chamados.
+
+####  [Mutáveis e Imutáveis](https://developer.mozilla.org/pt-BR/docs/Glossary/Mutable)
+Os tipos de JavaScript podem ser divididos em tipos primitivos e tipos de objeto. E podem ser divididos
+em tipos com métodos e tipos sem métodos. Também podem ser classificados como tipos
+mutáveis e imutáveis. Um valor de um tipo mutável pode mudar. Objetos e arrays são mutáveis: um
+programa JavaScript pode alterar os valores de propriedades do objeto e de elementos de arrays.
+Números, booleanos, null e undefined são imutáveis – nem mesmo faria sentido falar sobre alterar
+o valor de um número, por exemplo. As strings podem ser consideradas arrays de caracteres, sendo
+que se poderia esperar que fossem mutáveis. No entanto, em JavaScript as strings são imutáveis: você
+pode acessar o texto de determinado índice de uma string, mas JavaScript não fornece uma maneira
