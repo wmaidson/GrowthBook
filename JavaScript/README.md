@@ -164,4 +164,8 @@ Um construtor é basicamente uma função. Ela pode ser executada como uma funç
 
 #### [Função Fábrica](https://medium.com/@viniazvd/classes-vs-fun%C3%A7%C3%B5es-construtoras-vs-fun%C3%A7%C3%B5es-f%C3%A1brica-b92a6afa70a4)
 Podemos resumir uma função fábrica como um gerador de objetos.
-Em JavaScript, qualquer função pode retornar um objeto. Mas, quando isso acontece sem o new, é uma função de fábrica. Ou seja, quando uma função não é uma classe ou um construtor, é uma função fábrica
+Em JavaScript, qualquer função pode retornar um objeto. Mas, quando isso acontece sem o new, é uma função de fábrica. Ou seja, quando uma função não é uma classe ou um construtor, é uma função fábrica.
+
+Tecnicamente, em JavaScript apenas os objetos
+possuem métodos. Mas números, strings e valores booleanos se comportam como se tivessem métodos Em JavaScript, `null` e `undefined` são os únicos valores
+em que métodos não podem ser chamados.
