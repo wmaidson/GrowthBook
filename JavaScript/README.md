@@ -144,3 +144,20 @@ e retornar um valor calculado.
 
 As funções que são escritas para serem usadas (com o operador `new`) para inicializar um objeto criado
 recentemente são conhecidas como **construtoras**.
+
+Cada construtora define uma classe de objetos
+o conjunto de objetos inicializados por essa construtora. As classes podem ser consideradas como
+subtipos do tipo de objeto. Além das classes `Array` e `Function`, JavaScript básica define outras três
+classes úteis. A classe `Date` define objetos que representam datas. A classe `RegExp` define objetos que
+representam expressões regulares (uma poderosa ferramenta de comparação de padrões e a classe `Error` define objetos que representam erros de sintaxe e de execução que
+podem ocorrer em um programa JavaScript.
+
+#### [Classe](https://medium.com/@viniazvd/classes-vs-fun%C3%A7%C3%B5es-construtoras-vs-fun%C3%A7%C3%B5es-f%C3%A1brica-b92a6afa70a4)
+É uma função construtora. Ou seja, uma estrutura que descreve estados e comportamentos de um objeto.
+Foram introduzidas no ECMAScript 6 e são simplificações da linguagem para as heranças baseadas nos protótipos. Mas preste atenção:
+
+JavaScript não possui classes!
+A sintaxe para classes não introduz um novo modelo de herança de orientação a objetos em JavaScript. É apenas uma abstração! Ou seja, uma forma mais simples -principalmente para quem veio de linguagens orientadas a objeto- de criar objetos e lidar com herança.
+
+#### [Função Construtora](https://medium.com/@viniazvd/classes-vs-fun%C3%A7%C3%B5es-construtoras-vs-fun%C3%A7%C3%B5es-f%C3%A1brica-b92a6afa70a4)
+Um construtor é basicamente uma função. Ela pode ser executada como uma função ou pode ser utilizada para instanciar um objeto utilizando a palavra reservada new.
