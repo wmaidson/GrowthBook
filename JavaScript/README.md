@@ -185,3 +185,6 @@ Se um programa espera uma string, por exemplo, e você fornece um número, ele c
 Se você usa um valor não booleano onde é esperado um booleano, JavaScript converte adequadamente.
 As regras de conversão de valor liberais de JavaScript afetam sua definição de igualdade, 
 sendo que o operador de igualdade == realiza conversões de tipo.
+
+Quando um número aparece diretamente em um programa JavaScript, ele é chamado de `literal
+numérico`.
