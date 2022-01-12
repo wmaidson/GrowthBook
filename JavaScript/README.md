@@ -128,3 +128,19 @@ strings e nem booleanos. Cada valor normalmente é considerado como **membro ún
 tipo especial**.
 
 Qualquer valor em JavaScript que não seja número, string, booleano, `null` ou `undefined` é um objeto.
+
+Um objeto (isto é, um membro do tipo objeto) é um conjunto de propriedades, em que cada propriedade
+tem um nome e um valor (ou um valor primitivo, como um número ou string, ou um objeto).
+
+Um objeto normal em JavaScript é um conjunto não ordenado de valores nomeados. A linguagem
+também define um tipo especial de objeto, conhecido como array, que representa um conjunto
+ordenado de valores numerados. A linguagem JavaScript contém sintaxe especial para trabalhar com
+arrays, sendo que os arrays têm um comportamento especial que os diferencia dos objetos normais.
+
+
+JavaScript define outro tipo especial de objeto, conhecido como função. Uma função é um objeto
+que tem código executável associado. Uma função pode ser chamada para executar esse código executável
+e retornar um valor calculado.
+
+As funções que são escritas para serem usadas (com o operador `new`) para inicializar um objeto criado
+recentemente são conhecidas como **construtoras**.
