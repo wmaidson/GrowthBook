@@ -179,3 +179,17 @@ Números, booleanos, null e undefined são imutáveis – nem mesmo faria sentid
 o valor de um número, por exemplo. As strings podem ser consideradas arrays de caracteres, sendo
 que se poderia esperar que fossem mutáveis. No entanto, em JavaScript as strings são imutáveis: você
 pode acessar o texto de determinado índice de uma string, mas JavaScript não fornece uma maneira
+
+JavaScript converte valores de um tipo para outro de forma livre.
+Se um programa espera uma string, por exemplo, e você fornece um número, ele converte o número em string automaticamente.
+Se você usa um valor não booleano onde é esperado um booleano, JavaScript converte adequadamente.
+As regras de conversão de valor liberais de JavaScript afetam sua definição de igualdade, 
+sendo que o operador de igualdade == realiza conversões de tipo.
+
+
+As variáveis em JavaScript são não tipadas: você pode atribuir um valor de qualquer tipo a uma
+variável e, posteriormente, atribuir um valor de tipo diferente para a mesma variável. As variáveis
+são declaradas com a palavra-chave `var`. JavaScript utiliza escopo léxico. As variáveis declaradas fora
+de uma função são variáveis globais e são visíveis por toda parte em um programa JavaScript. As
+variáveis declaradas dentro de uma função têm escopo de função e são visíveis apenas para o código
+que aparece dentro dessa função.
