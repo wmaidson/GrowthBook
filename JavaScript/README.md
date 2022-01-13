@@ -243,4 +243,27 @@ Date não são um tipo fundamental como os números.
 | later.toLocaleTimeString() | => "05:10:30 PM" |
 | later.toISOString() | => "2010-01-02T01:10:30.000Z"; somente ES5 |
 
+## Texto
 
+Uma string é uma sequência ordenada imutável de valores de 16 bits, cada um dos quais normalmente
+representa um caractere Unicode – as strings são um tipo de JavaScript usado para representar
+texto. O comprimento de uma string é o número de valores de 16 bits que ela contém. As strings (e
+seus arrays) de JavaScript utilizam indexação com base em zero: o primeiro valor de 16 bits está na
+posição 0, o segundo na posição 1 e assim por diante. A string vazia é a string de comprimento 0.
+JavaScript não tem um tipo especial que represente um único elemento de uma string. Para representar
+um único valor de 16 bits, basta usar uma string que tenha comprimento 1.
+
+| Codigo | Saida |
+| ------ | ------ |
+| \0 | o  caractere NULL |
+| \' | aspas simples |
+| \"	| aspas duplas |
+| \\	| barra invertida |
+| \n	| nova linha |
+| \r	| carriage return |
+| \v	| tab vertical |
+| \t	| tab |
+| \b	| backspace |
+| \f | form feed | 
+| \uXXXX | unicode codepoint |
+| \xXX	| the Latin-1 character |
