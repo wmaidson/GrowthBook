@@ -333,3 +333,11 @@ null
 NaN
 "" // a string vazia
 ```
+## null e undefined
+
+Apesar dessas diferenças, tanto `null` quanto `undefined` indicam uma ausência de valor e muitas
+vezes podem ser usados indistintamente. O operador de igualdade `==` os considera iguais. (Para diferenciá-
+los, use o **operador de igualdade restrito** `===`.) Ambos são valores falsos – eles se comportam
+como false quando um valor booleano é exigido. Nem null nem undefined tem propriedades ou
+métodos. Na verdade, usar . ou [] para acessar uma propriedade ou um método desses valores causa
+um TypeError.
