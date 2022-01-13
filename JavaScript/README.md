@@ -267,3 +267,37 @@ um único valor de 16 bits, basta usar uma string que tenha comprimento 1.
 | \f | form feed | 
 | \uXXXX | unicode codepoint |
 | \xXX	| the Latin-1 character |
+
+## Trabalhando com strings
+
+Um dos recursos incorporados a JavaScript é a capacidade de concatenar strings. Se o operador + é
+utilizado com números, ele os soma. Mas se esse operador é usado em strings, ele as une, anexando
+a segunda na primeira. Por exemplo:
+
+```
+msg = "Hello, " + "world"; // Produz a string "Hello, world"
+greeting = "Welcome to my blog," + " " + name;
+```
+Para determinar o comprimento de uma string – o número de valores de 16 bits que ela contém –
+use sua propriedade length. Determine o comprimento de uma string s como segue:
+s.length
+
+```
+s.length
+```
+Além dessa propriedade length, existem vários métodos que podem ser chamados em strings
+
+| Codigo | Descrição |
+| ------ | ------ |
+| var s = "hello, world" | Começa com um texto. |
+| s.charAt(0) | => "h": o primeiro caractere. |
+| s.charAt(s.length-1) | => "d": o último caractere. |
+| s.substring(1,4) | => "ell": o 2º, 3º e 4º caracteres. |
+| s.slice(1,4) | => "ell": a mesma coisa |
+| s.slice(-3) | => "rld": os últimos 3 caracteres |
+| s.indexOf("l") | => 2: posição da primeira letra l. |
+| s.lastIndexOf("l") | => 10: posição da última letra l. |
+| s.indexOf("l", 3) | => 3: posição do primeiro "l" em ou após 3 |
+| s.split(", ") |  => ["hello", "world"] divide em substrings | 
+| s.replace("h", "H") |  => "Hello, world": substitui todas as instâncias | 
+| s.toUpperCase() |  => "HELLO, WORLD" | 
