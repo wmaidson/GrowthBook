@@ -214,3 +214,5 @@ módulo (resto da divisão).
 | Math.log(100)/Math.LN10  | Logaritmo de base 10 de 100 | 
 | Math.log(512)/Math.LN2 | Logaritmo de base 2 de 512 |
 | Math.exp(3) | Math.E ao cubo |
+
+JavaScript predefine as variáveis globais `Infinity` e `NaN` para conter o infinito positivo e o valor **not--a-number**.
