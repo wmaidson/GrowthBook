@@ -301,3 +301,35 @@ Além dessa propriedade length, existem vários métodos que podem ser chamados 
 | s.split(", ") |  => ["hello", "world"] divide em substrings | 
 | s.replace("h", "H") |  => "Hello, world": substitui todas as instâncias | 
 | s.toUpperCase() |  => "HELLO, WORLD" | 
+
+## Valores booleanos
+Um valor booleano representa verdadeiro ou falso, ligado ou desligado, sim ou não. Só existem dois
+valores possíveis desse tipo. As palavras reservadas true e false são avaliadas nesses dois valores.
+Geralmente, os valores booleanos resultam de comparações feitas nos programas JavaScript. Por
+exemplo:
+a == 4
+Esse código faz um teste para ver se o valor da variável a é igual ao número 4. Se for, o resultado dessa
+comparação é o valor booleano `true`. Se a não é igual a 4, o resultado da comparação é `false`.
+Os valores booleanos são comumente usados em estruturas de controle em JavaScript. Por exemplo,
+a instrução `if/else` de JavaScript executa uma ação se um valor booleano é true e outra ação se o valor
+é `false`. Normalmente, uma comparação que gera um valor booleano é combinada diretamente
+com a instrução que o utiliza. O resultado é o seguinte:
+
+```
+if (a == 4)
+b = b + 1;
+else
+a = a + 1;
+```
+
+Em JavaScript qualquer valor pode ser convertido em um valor booleano.
+Os valores a seguir são convertidos (e, portanto, funcionam como) em false:
+
+```
+undefined
+null
+0
+-0
+NaN
+"" // a string vazia
+```
