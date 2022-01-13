@@ -256,8 +256,8 @@ um único valor de 16 bits, basta usar uma string que tenha comprimento 1.
 | Codigo | Saida |
 | ------ | ------ |
 | \0 | o  caractere NULL |
-| \' | aspas simples |
-| \"	| aspas duplas |
+| \\' | aspas simples |
+| \\"	| aspas duplas |
 | \\	| barra invertida |
 | \n	| nova linha |
 | \r	| carriage return |
