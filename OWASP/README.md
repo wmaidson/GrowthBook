@@ -1,6 +1,6 @@
-## Broken Access Control
+# Broken Access Control
 
-#### Descrição
+## Descrição
 
 O controle de acesso impõe a política de forma que os usuários não possam agir fora de suas permissões pretendidas. As falhas geralmente levam à divulgação, modificação ou destruição de informações não autorizadas de todos os dados ou à execução de uma função comercial fora dos limites do usuário. Vulnerabilidades comuns de controle de acesso incluem:
 
@@ -20,7 +20,7 @@ A configuração incorreta do CORS permite o acesso à API de origens não autor
 
 Força a navegação em páginas autenticadas como usuário não autenticado ou em páginas privilegiadas como usuário padrão.
 
-#### Como prevenir
+## Como prevenir
 
 O controle de acesso só é eficaz em código do lado do servidor confiável ou API sem servidor, em que o invasor não pode modificar a verificação ou os metadados do controle de acesso.
 
@@ -42,9 +42,9 @@ Os identificadores de sessão com estado devem ser invalidados no servidor após
 
 Os desenvolvedores e a equipe de controle de qualidade devem incluir a unidade de controle de acesso funcional e testes de integração.
 
-## Cryptographic Failures
+# Cryptographic Failures
 
-#### Descrição
+## Descrição
 A primeira coisa é determinar as necessidades de proteção dos dados em trânsito e em repouso. Por exemplo, senhas, números de cartão de crédito, registros de saúde, informações pessoais e segredos comerciais exigem proteção extra, principalmente se esses dados estiverem sob leis de privacidade, por exemplo, Regulamento Geral de Proteção de Dados da UE (GDPR) ou regulamentos, por exemplo, proteção de dados financeiros como PCI Data Security Standard (PCI DSS). Para todos esses dados:
 
 Algum dado é transmitido em texto simples? Isso diz respeito a protocolos como HTTP, SMTP, FTP também usando atualizações TLS como STARTTLS. O tráfego externo da Internet é perigoso. Verifique todo o tráfego interno, por exemplo, entre balanceadores de carga, servidores web ou sistemas back-end.
@@ -71,7 +71,7 @@ As mensagens de erro criptográficas ou informações de canal lateral podem ser
 
 Consulte ASVS Crypto (V7), Data Protection (V9) e SSL/TLS (V10)
 
-#### Como prevenir
+## Como prevenir
 
 Faça o seguinte, no mínimo, e consulte as referências:
 
@@ -91,7 +91,7 @@ Aplique os controles de segurança necessários de acordo com a classificação 
 
 Não use protocolos legados, como FTP e SMTP, para transportar dados confidenciais.
 
-Armazene senhas usando funções de hashing adaptáveis ​​e salgadas fortes com um fator de trabalho (fator de atraso), como Argon2, scrypt, bcrypt ou PBKDF2.
+Armazene senhas usando funções de hashing adaptáveis e salgadas fortes com um fator de trabalho (fator de atraso), como Argon2, scrypt, bcrypt ou PBKDF2.
 
 Os vetores de inicialização devem ser escolhidos de acordo com o modo de operação. Para muitos modos, isso significa usar um CSPRNG (gerador de números pseudo-aleatórios criptograficamente seguro). Para modos que exigem um nonce, o vetor de inicialização (IV) não precisa de um CSPRNG. Em todos os casos, o IV nunca deve ser usado duas vezes para uma chave fixa.
 
@@ -105,18 +105,19 @@ Evite funções criptográficas obsoletas e esquemas de preenchimento, como MD5,
 
 Verifique de forma independente a eficácia da configuração e configurações.
 
-## Injection
+# Injection
 
-Descrição
+## Descrição
+
 Um aplicativo é vulnerável a ataques quando:
 
 Os dados fornecidos pelo usuário não são validados, filtrados ou higienizados pelo aplicativo.
 
 Consultas dinâmicas ou chamadas não parametrizadas sem escape sensível ao contexto são usadas diretamente no interpretador.
 
-Dados hostis são usados ​​em parâmetros de pesquisa de mapeamento relacional de objeto (ORM) para extrair registros confidenciais adicionais.
+Dados hostis são usados em parâmetros de pesquisa de mapeamento relacional de objeto (ORM) para extrair registros confidenciais adicionais.
 
-Dados hostis são usados ​​diretamente ou concatenados. O SQL ou comando contém a estrutura e os dados maliciosos em consultas dinâmicas, comandos ou procedimentos armazenados.
+Dados hostis são usados diretamente ou concatenados. O SQL ou comando contém a estrutura e os dados maliciosos em consultas dinâmicas, comandos ou procedimentos armazenados.
 
 Algumas das injeções mais comuns são SQL, NoSQL, comando do SO, Mapeamento Relacional de Objetos (ORM), LDAP e Linguagem de Expressão (EL) ou injeção de Biblioteca de Navegação de Gráficos de Objetos (OGNL). O conceito é idêntico entre todos os intérpretes. A revisão do código-fonte é o melhor método para detectar se os aplicativos são vulneráveis ​​a injeções. O teste automatizado de todos os parâmetros, cabeçalhos, URL, cookies, JSON, SOAP e entradas de dados XML é fortemente recomendado. As organizações podem incluir ferramentas de teste de segurança de aplicativos estáticas (SAST), dinâmicas (DAST) e interativas (IAST) no pipeline de CI/CD para identificar falhas de injeção introduzidas antes da implantação de produção.
 
@@ -133,9 +134,9 @@ Nota: Estruturas SQL, como nomes de tabelas, nomes de colunas e assim por diante
 
 Use LIMIT e outros controles SQL nas consultas para evitar a divulgação em massa de registros em caso de injeção de SQL.
 
-## Insecure Design
+# Insecure Design
 
-#### Descrição
+## Descrição
 
 O design inseguro é uma categoria ampla que representa diferentes pontos fracos, expressos como "design de controle ausente ou ineficaz". O design inseguro não é a fonte de todas as outras 10 categorias de risco. Há uma diferença entre design inseguro e implementação insegura. Diferenciamos entre falhas de design e defeitos de implementação por um motivo, eles têm diferentes causas-raiz e remediação. Um design seguro ainda pode ter defeitos de implementação levando a vulnerabilidades que podem ser exploradas. Um design inseguro não pode ser corrigido por uma implementação perfeita, pois, por definição, os controles de segurança necessários nunca foram criados para se defender contra ataques específicos. Um dos fatores que contribuem para o design inseguro é a falta de perfil de risco de negócio inerente ao software ou sistema que está sendo desenvolvido,
 
@@ -143,12 +144,12 @@ Gerenciamento de Requisitos e Recursos
 Colete e negocie os requisitos de negócios de um aplicativo com os negócios, incluindo os requisitos de proteção relativos a confidencialidade, integridade, disponibilidade e autenticidade de todos os ativos de dados e a lógica de negócios esperada. Leve em consideração a exposição do seu aplicativo e se você precisa de segregação de locatários (além de controle de acesso). Compilar os requisitos técnicos, incluindo requisitos de segurança funcionais e não funcionais. Planeje e negocie o orçamento cobrindo todo o projeto, construção, teste e operação, incluindo atividades de segurança.
 
 Design Seguro
-O design seguro é uma cultura e metodologia que avalia constantemente as ameaças e garante que o código seja projetado e testado de forma robusta para evitar métodos de ataque conhecidos. A modelagem de ameaças deve ser integrada em sessões de refinamento (ou atividades similares); procure mudanças nos fluxos de dados e controle de acesso ou outros controles de segurança. No desenvolvimento da história do usuário, determine o fluxo correto e os estados de falha, certifique-se de que eles sejam bem compreendidos e acordados pelas partes responsáveis ​​e afetadas. Analise suposições e condições para fluxos esperados e de falha, certifique-se de que eles ainda sejam precisos e desejáveis. Determine como validar as suposições e impor condições necessárias para comportamentos adequados. Certifique-se de que os resultados sejam documentados na história do usuário. Aprenda com os erros e ofereça incentivos positivos para promover melhorias.
+O design seguro é uma cultura e metodologia que avalia constantemente as ameaças e garante que o código seja projetado e testado de forma robusta para evitar métodos de ataque conhecidos. A modelagem de ameaças deve ser integrada em sessões de refinamento (ou atividades similares); procure mudanças nos fluxos de dados e controle de acesso ou outros controles de segurança. No desenvolvimento da história do usuário, determine o fluxo correto e os estados de falha, certifique-se de que eles sejam bem compreendidos e acordados pelas partes responsáveis e afetadas. Analise suposições e condições para fluxos esperados e de falha, certifique-se de que eles ainda sejam precisos e desejáveis. Determine como validar as suposições e impor condições necessárias para comportamentos adequados. Certifique-se de que os resultados sejam documentados na história do usuário. Aprenda com os erros e ofereça incentivos positivos para promover melhorias.
 
 Ciclo de Vida de Desenvolvimento Seguro
 O software seguro requer um ciclo de vida de desenvolvimento seguro, alguma forma de padrão de projeto seguro, metodologia de estradas pavimentadas, biblioteca de componentes seguros, ferramentas e modelagem de ameaças. Procure seus especialistas em segurança no início de um projeto de software durante todo o projeto e manutenção de seu software. Considere aproveitar o modelo de maturidade de garantia de software OWASP (SAMM) para ajudar a estruturar seus esforços de desenvolvimento de software seguro.
 
-#### Como prevenir
+## Como prevenir
 
 Estabeleça e use um ciclo de vida de desenvolvimento seguro com profissionais da AppSec para ajudar a avaliar e projetar controles relacionados à segurança e privacidade
 
@@ -168,9 +169,9 @@ Separe os locatários de forma robusta por design em todas as camadas
 
 Limitar o consumo de recursos por usuário ou serviço
 
-## Security Misconfiguration
+# Security Misconfiguration
 
-#### Descrição
+## Descrição
 
 O aplicativo pode estar vulnerável se o aplicativo for:
 
@@ -192,7 +193,7 @@ O software está desatualizado ou vulnerável (consulte A06:2021-Componentes vul
 
 Sem um processo de configuração de segurança de aplicativos concertado e repetível, os sistemas correm um risco maior.
 
-#### Como prevenir
+## Como prevenir
 
 Os processos de instalação segura devem ser implementados, incluindo:
 
@@ -200,7 +201,7 @@ Um processo de proteção repetível torna rápido e fácil a implantação de o
 
 Uma plataforma mínima sem recursos, componentes, documentação e amostras desnecessários. Remova ou não instale recursos e estruturas não utilizados.
 
-Uma tarefa para revisar e atualizar as configurações apropriadas para todas as notas de segurança, atualizações e patches como parte do processo de gerenciamento de patches (consulte A06:2021-Componentes vulneráveis ​​e desatualizados ). Revise as permissões de armazenamento em nuvem (por exemplo, permissões de bucket do S3).
+Uma tarefa para revisar e atualizar as configurações apropriadas para todas as notas de segurança, atualizações e patches como parte do processo de gerenciamento de patches (consulte A06:2021-Componentes vulneráveis e desatualizados ). Revise as permissões de armazenamento em nuvem (por exemplo, permissões de bucket do S3).
 
 Uma arquitetura de aplicativo segmentada fornece separação eficaz e segura entre componentes ou locatários, com segmentação, conteinerização ou grupos de segurança de nuvem (ACLs).
 
@@ -208,9 +209,9 @@ Envio de diretivas de segurança para clientes, por exemplo, Cabeçalhos de Segu
 
 Um processo automatizado para verificar a eficácia das configurações e ajustes em todos os ambientes.
 
-## Vulnerable and Outdated Components
+# Vulnerable and Outdated Components
 
-#### Descrição
+## Descrição
 
 Você provavelmente está vulnerável:
 
@@ -226,7 +227,7 @@ Se os desenvolvedores de software não testarem a compatibilidade de bibliotecas
 
 Se você não proteger as configurações dos componentes (consulte A05:2021-Configuração incorreta de segurança).
 
-#### Como prevenir
+## Como prevenir
 
 Deve haver um processo de gerenciamento de patches para:
 
@@ -240,9 +241,9 @@ Monitore bibliotecas e componentes que não são mantidos ou não criam patches 
 
 Toda organização deve garantir um plano contínuo de monitoramento, triagem e aplicação de atualizações ou alterações de configuração durante a vida útil do aplicativo ou portfólio.
 
-## Identification and Authentication Failures
+# Identification and Authentication Failures
 
-#### Descrição
+## Descrição
 
 A confirmação da identidade do usuário, autenticação e gerenciamento de sessão é fundamental para proteger contra ataques relacionados à autenticação. Pode haver deficiências de autenticação se o aplicativo:
 
@@ -264,7 +265,7 @@ Reutilize o identificador de sessão após o login bem-sucedido.
 
 Não invalida corretamente os IDs de sessão. Sessões de usuário ou tokens de autenticação (principalmente tokens de logon único (SSO)) não são invalidados corretamente durante o logout ou um período de inatividade.
 
-#### Como prevenir
+## Como prevenir
 
 Sempre que possível, implemente a autenticação multifator para evitar ataques automatizados de preenchimento de credenciais, força bruta e reutilização de credenciais roubadas.
 
@@ -280,13 +281,13 @@ Limite ou retarde cada vez mais as tentativas de login com falha, mas tome cuida
 
 Use um gerenciador de sessão integrado, seguro e do lado do servidor que gera um novo ID de sessão aleatório com alta entropia após o login. O identificador de sessão não deve estar no URL, ser armazenado com segurança e invalidado após o logout, inatividade e tempos limites absolutos.
 
-## Software and Data Integrity Failures
+# Software and Data Integrity Failures
 
-#### Descrição
+## Descrição
 
 As falhas de integridade de software e dados estão relacionadas a código e infraestrutura que não protegem contra violações de integridade. Um exemplo disso é quando um aplicativo depende de plugins, bibliotecas ou módulos de fontes não confiáveis, repositórios e redes de entrega de conteúdo (CDNs). Um pipeline de CI/CD inseguro pode introduzir o potencial de acesso não autorizado, código malicioso ou comprometimento do sistema. Por fim, muitos aplicativos agora incluem a funcionalidade de atualização automática, em que as atualizações são baixadas sem verificação de integridade suficiente e aplicadas ao aplicativo anteriormente confiável. Os invasores podem fazer upload de suas próprias atualizações para serem distribuídas e executadas em todas as instalações. Outro exemplo é quando objetos ou dados são codificados ou serializados em uma estrutura que um invasor pode ver e modificar é vulnerável à desserialização insegura.
 
-#### Como prevenir
+## Como prevenir
 
 Use assinaturas digitais ou mecanismos semelhantes para verificar se o software ou os dados são da fonte esperada e não foram alterados.
 
@@ -301,10 +302,10 @@ Certifique-se de que seu pipeline de CI/CD tenha segregação, configuração e 
 Certifique-se de que os dados serializados não assinados ou não criptografados não sejam enviados para clientes não confiáveis ​​sem alguma forma de verificação de integridade ou assinatura digital para detectar adulteração ou repetição dos dados serializados
 
 
-## Security Logging and Monitoring Failures
+# Security Logging and Monitoring Failures
 
 
-#### Descrição
+## Descrição
 
 Voltando ao OWASP Top 10 2021, esta categoria é para ajudar a detectar, escalar e responder a violações ativas. Sem registro e monitoramento, as violações não podem ser detectadas. Registro, detecção, monitoramento e resposta ativa insuficientes ocorrem a qualquer momento:
 
@@ -324,7 +325,7 @@ O aplicativo não pode detectar, escalar ou alertar para ataques ativos em tempo
 
 Você está vulnerável ao vazamento de informações ao tornar os eventos de registro e alerta visíveis para um usuário ou invasor (consulte A01:2021-Broken Access Control ).
 
-#### Como prevenir
+## Como prevenir
 
 Os desenvolvedores devem implementar alguns ou todos os controles a seguir, dependendo do risco do aplicativo:
 
@@ -342,7 +343,7 @@ Estabeleça ou adote um plano de resposta e recuperação de incidentes, como o 
 
 Existem estruturas de proteção de aplicativos comerciais e de código aberto, como o OWASP ModSecurity Core Rule Set, e software de correlação de log de código aberto, como a pilha Elasticsearch, Logstash, Kibana (ELK), que apresenta painéis e alertas personalizados.
 
-## Server-Side Request Forgery (SSRF)
+# Server-Side Request Forgery (SSRF)
 
 ## Descrição
 
@@ -350,7 +351,7 @@ As falhas do SSRF ocorrem sempre que um aplicativo da Web está buscando um recu
 
 Como os aplicativos da Web modernos fornecem aos usuários finais recursos convenientes, a busca de uma URL se torna um cenário comum. Como resultado, a incidência de SSRF está aumentando. Além disso, a gravidade do SSRF está se tornando maior devido aos serviços em nuvem e à complexidade das arquiteturas.
 
-## Como prevenir
+# Como prevenir
 
 Os desenvolvedores podem impedir o SSRF implementando alguns ou todos os seguintes controles de defesa em profundidade:
 
