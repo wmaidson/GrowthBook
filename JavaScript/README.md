@@ -341,3 +341,47 @@ los, use o **operador de igualdade restrito** `===`.) Ambos são valores falsos 
 como false quando um valor booleano é exigido. Nem null nem undefined tem propriedades ou
 métodos. Na verdade, usar . ou [] para acessar uma propriedade ou um método desses valores causa
 um TypeError.
+
+## O objeto global
+
+O objeto global é um objeto normal de JavaScript que tem um objetivo muito importante: as propriedades desse objeto
+são os símbolos definidos globalmente que estão disponíveis para um programa JavaScript. Quando
+o interpretador JavaScript começa (ou quando um navegador Web carrega uma nova página), ele
+cria um novo objeto global e dá a ele um conjunto inicial de propriedades que define:
+
+- propriedades globais, como `undefined`, `Infinity` e `NaN`
+- funções globais, como `isNaN()`, `parseInt()` e `eval()`
+- funções construtoras, como `Date()`, `RegExp()`, `String()`, `Object()` e `Array()`
+- objetos globais, como Math e JSON
+
+As propriedades iniciais do objeto global não são palavras reservadas, mas merecem ser tratadas
+como se fossem.
+
+No código de nível superior – código JavaScript que não faz parte de uma função –, pode-se usar a
+palavra-chave `this` de JavaScript para se referir ao objeto global:
+
+```
+var global = this; // Define uma variável global para se referir ao objeto global
+```
+
+## Objetos wrapper
+
+Os objetos JavaScript são valores compostos: eles são um conjunto de propriedades ou valores nomeados.
+Ao usarmos a notação . fazemos referência ao valor de uma propriedade. Quando o valor
+de uma propriedade é uma função, a chamamos de **método**. Para chamar o método m de um objeto
+o, escrevemos `o.m()`.
+
+Também vimos que as strings têm propriedades e métodos:
+
+```
+var s = "hello world!"; // Uma string
+var word = s.substring(s.indexOf(" ")+1, s.length); // Usa propriedades da string
+```
+
+Contudo, as strings não são objetos. Então, por que elas têm propriedades? Quando você tenta se
+referir a uma propriedade de uma string s, JavaScript converte o valor da string em um objeto como
+se estivesse chamando `new String(s)`.
+Esse  objeto herda métodos da string eé utilizado para solucionar a referência da propriedade.
+Uma vez solucionada a propriedade, o objeto
+recentemente criado é descartado. (As implementações não são obrigadas a criar e descartar esse
+objeto transitório – contudo, devem se comportar como se fossem.)
