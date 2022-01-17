@@ -385,3 +385,15 @@ Esse  objeto herda métodos da string eé utilizado para solucionar a referênci
 Uma vez solucionada a propriedade, o objeto
 recentemente criado é descartado. (As implementações não são obrigadas a criar e descartar esse
 objeto transitório – contudo, devem se comportar como se fossem.)
+
+Números e valores booleanos têm métodos pelo mesmo motivo que as strings: um objeto temporário
+é criado com a construtora Number() ou Boolean() e o método é solucionado por meio desse
+objeto temporário. Não existem objetos empacotadores (wrapper) para os valores null e undefined:
+qualquer tentativa de acessar uma propriedade de um desses valores causa um TypeError.
+Considere o código a seguir e pense no que acontece quando ele é executado:
+
+```
+var s = "test"; // Começa com um valor de string.
+s.len = 4; // Configura uma propriedade nele.
+var t = s.len; // Agora consulta a propriedade.
+```
