@@ -397,3 +397,10 @@ var s = "test"; // Começa com um valor de string.
 s.len = 4; // Configura uma propriedade nele.
 var t = s.len; // Agora consulta a propriedade.
 ```
+
+Os objetos temporários criados ao se acessar uma propriedade de uma string, número ou valor booleano
+são conhecidos como **objetos empacotadores (wrapper)** e ocasionalmente pode ser necessário
+diferenciar um valor de string de um objeto String ou um número ou valor booleano de um objeto
+Number ou Boolean. Basta saber que string, número e valores
+booleanos diferem de objetos pois suas propriedades são somente para leitura e que não é possível
+definir novas propriedades neles.
