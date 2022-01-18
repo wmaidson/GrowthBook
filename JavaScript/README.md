@@ -404,3 +404,20 @@ diferenciar um valor de string de um objeto String ou um número ou valor boolea
 Number ou Boolean. Basta saber que string, número e valores
 booleanos diferem de objetos pois suas propriedades são somente para leitura e que não é possível
 definir novas propriedades neles.
+
+## Valores primitivos imutáveis e referências de objeto mutáveis
+
+Em JavaScript existe uma diferença fundamental entre valores primitivos (undefined, null, booleanos,
+números e strings) e objetos (incluindo arrays e funções). Os valores primitivos são imutáveis:
+não há como alterar (ou “mudar”) um valor primitivo. Isso é óbvio para números e booleanos – nem
+mesmo faz sentido mudar o valor de um número. No entanto, não é tão óbvio para strings. Como
+as strings são como arrays de caracteres, você poderia pensar que é possível alterar o caractere em
+qualquer índice especificado. Na verdade, JavaScript não permite isso e todos os métodos de string
+que parecem retornar uma string modificada estão na verdade retornando um novo valor de string.
+Por exemplo:
+
+```
+var s = "hello"; // Começa com um texto em letras minúsculas
+s.toUpperCase(); // Retorna "HELLO", mas não altera s
+s // => "hello": a string original não mudou
+```
