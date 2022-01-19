@@ -438,3 +438,24 @@ var a = [1,2,3] // Os arrays também são mutáveis
 a[0] = 0; // Muda o valor de um elemento do array
 a[3] = 4; // Adiciona um novo elemento no array
 ```
+
+Objetos não são comparados por valor: dois objetos não são iguais mesmo que tenham as mesmas
+propriedades e valores. E dois arrays não são iguais mesmo que tenham os mesmos elementos na
+mesma ordem:
+```
+var o = {x:1}, p = {x:1}; // Dois objetos com as mesmas propriedades
+o === p // => falso: objetos distintos nunca são iguais
+var a = [], b = []; // Dois arrays vazios diferentes
+a === b // => falso: arrays diferentes nunca são iguais
+```
+Às vezes os objetos são chamados de tipos de referência para distingui-los dos tipos primitivos de
+JavaScript. Usando essa terminologia, os valores de objeto são referências e dizemos que os objetos
+são comparados por referência: dois valores de objeto são iguais se, e somente se, eles se referem ao
+mesmo objeto básico.
+```
+var a = []; // A variável a se refere a um array vazio.
+var b = a; // Agora b se refere ao mesmo array.
+b[0] = 1; // Muda o array referido pela variável b.
+a[0] // => 1: a mudança também é visível por meio da variável a.
+a === b // => verdadeiro: a e b se referem ao mesmo objeto; portanto, são iguais.
+```
