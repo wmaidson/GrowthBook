@@ -421,3 +421,20 @@ var s = "hello"; // Começa com um texto em letras minúsculas
 s.toUpperCase(); // Retorna "HELLO", mas não altera s
 s // => "hello": a string original não mudou
 ```
+
+Os valores primitivos também são comparados por valor: dois valores são iguais somente se têm o
+mesmo valor. Isso parece recorrente para números, booleanos, null e undefined: não há outra maneira
+de compará-los. Novamente, contudo, não é tão óbvio para strings. Se dois valores distintos de
+string são comparados, JavaScript os trata como iguais se, e somente se, tiverem o mesmo comprimento
+e se o caractere em cada índice for o mesmo.
+Os objetos são diferentes dos valores primitivos. Primeiramente, eles são mutáveis – seus valores
+podem mudar:
+
+```
+var o = { x:1 }; // Começa com um objeto
+o.x = 2; // Muda-o, alterando o valor de uma propriedade
+o.y = 3; // Muda-o novamente, adicionando uma nova propriedade
+var a = [1,2,3] // Os arrays também são mutáveis
+a[0] = 0; // Muda o valor de um elemento do array
+a[3] = 4; // Adiciona um novo elemento no array
+```
