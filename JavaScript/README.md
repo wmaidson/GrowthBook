@@ -459,3 +459,26 @@ b[0] = 1; // Muda o array referido pela variável b.
 a[0] // => 1: a mudança também é visível por meio da variável a.
 a === b // => verdadeiro: a e b se referem ao mesmo objeto; portanto, são iguais.
 ```
+Como você pode ver no código anterior, atribuir um objeto (ou array) a uma variável simplesmente
+atribui a referência: isso não cria uma nova cópia do objeto. Se quiser fazer uma nova cópia de um
+objeto ou array, você precisa copiar explicitamente as propriedades do objeto ou dos elementos do
+array. Este exemplo demonstra o uso de um laço for:
+```
+var a = ['a','b','c']; // Um array que queremos copiar
+var b = []; // Um array diferente no qual vamos copiar
+for(var i = 0; i < a.length; i++) { // Para cada índice de []
+b[i] = a[i]; // Copia um elemento de a em b
+}
+```
+Da mesma forma, se queremos comparar dois objetos ou arrays distintos, devemos comparar suas
+propriedades ou seus elementos. Este código define uma função para comparar dois arrays:
+```
+function equalArrays(a,b) {
+if (a.length != b.length) return false; // Arrays de tamanho diferente não são
+// iguais
+for(var i = 0; i < a.length; i++) // Itera por todos os elementos
+if (a[i] !== b[i]) return false; // Se algum difere, os arrays não são
+// iguais
+return true; // Caso contrário, eles são iguais
+}
+```
