@@ -482,3 +482,20 @@ if (a[i] !== b[i]) return false; // Se algum difere, os arrays não são
 return true; // Caso contrário, eles são iguais
 }
 ```
+
+## Conversões de tipo
+
+A JavaScript é muito flexível quanto aos tipos de valores que exige. Vimos isso no caso dos booleanos:
+quando a JavaScript espera um valor booleano, você pode fornecer um valor de qualquer tipo
+– ela o converte conforme for necessário. Alguns valores (valores “verdadeiros”) são convertidos em
+true e outros (valores “falsos”) são convertidos em false. O mesmo vale para outros tipos: se a Java-
+Script quer uma string, ela converte qualquer valor fornecido em uma string. Se a JavaScript quer
+um número, ela tenta converter o valor fornecido para um número (ou para NaN, caso não consiga
+fazer uma conversão significativa). Alguns exemplos:
+
+```
+10 + " objects" // => "10 objects". O número 10 é convertido em uma string
+"7" * "4" // => 28: as duas strings são convertidas em números
+var n = 1 – "x"; // => NaN: a string "x" não pode ser convertida em um número
+n + " objects " // => "NaN objects": NaN é convertido na string "NaN"
+```
