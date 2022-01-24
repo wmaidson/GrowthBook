@@ -499,3 +499,11 @@ fazer uma conversão significativa). Alguns exemplos:
 var n = 1 – "x"; // => NaN: a string "x" não pode ser convertida em um número
 n + " objects " // => "NaN objects": NaN é convertido na string "NaN"
 ```
+
+
+| Valor | String | Número | Booleano | Objeto |
+| ------ | ------ | ------ | ------ | ------ |
+| undefined | "undefined" | NaN | false | lança TypeError |
+| null | "null"| 0 | false | lança TypeError | 
+| true | "true" | 1 |  | new Boolean(true) | 
+| false | "false" | 0 |  | new Boolean(false) | 
