@@ -35,7 +35,7 @@ Correlacione a coluna da esquerda com a da direita e assinale a alternativa que 
 - () Construção de software que encapsula estado e comportamento
 - () Espaço onde o problema reside
 
-(A) 3, 2, 4, 5, 1
-(B)✔️ 3, 2, 1, 5, 4
-(C) 2, 3, 1, 5, 4
-(D) 2, 4, 3, 1, 5
+- (A) 3, 2, 4, 5, 1
+- (B)✔️ 3, 2, 1, 5, 4
+- (C) 2, 3, 1, 5, 4
+- (D) 2, 4, 3, 1, 5
