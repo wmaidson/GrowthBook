@@ -52,3 +52,12 @@ No contexto dos níveis de acesso, selecione a alternativa que contém o nível 
 - B)✔️ Protegido
 - C) Privado
 - D) Oculto
+
+---
+
+A proteção de atributos operações das classes, fazendo com que estas se comuniquem com o meio externo por meio de suas interfaces, define o conceito de
+
+- A) Polimorfismo
+- B)✔️ Encapsulamento
+- C) Herança
+- D) Agregação
