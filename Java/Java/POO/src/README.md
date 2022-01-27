@@ -14,12 +14,16 @@ A programação orientada a objetos se preocupa em produzir software que tenha a
 - C) Confívél, reutilizavél, extensível, mensurável, acessível e fácil de usar
 - D) Extensível, natural, mensurável, reutilizável, instantâneo e símples
 
+---
+
 Assinale a alternativa incorrea com relação ao conceito de classe e objetos em programação Orientada a Objetos
 
 - A)✔️ Uma classe é instância de um objeto
 - B) Um objeto é uma construção de software que encapsula estado e comportamento
 - C) Uma classe define os atributos e comportamentos compartilhados por um tipo de objeto
 - D) Em uma Linguagem POO pura, tudo é um objeto, desde os tipos mais básicos
+
+---
 
 Correlacione a coluna da esquerda com a da direita e assinale a alternativa que contém a sequência correta.
 
@@ -39,3 +43,12 @@ Correlacione a coluna da esquerda com a da direita e assinale a alternativa que 
 - (B)✔️ 3, 2, 1, 5, 4
 - (C) 2, 3, 1, 5, 4
 - (D) 2, 4, 3, 1, 5
+
+---
+
+No contexto dos níveis de acesso, selecione a alternativa que contém o nível que apenas garante o acesso para aqueles objetos
+
+- A) Público
+- B)✔️ Protegido
+- C) Privado
+- D) Oculto
