@@ -533,3 +533,11 @@ e depois são permitidos, mas qualquer caractere que não seja espaço antes ou 
 parte de um literal numérico faz a conversão de string para número produzir NaN. Algumas conversões numéricas podem parecer surpreendentes: `true` é convertido em 1 e `false` e a string vazia `""` são
 convertidos em 0.
 
+As conversões de valor primitivo para objeto são diretas: os valores primitivos são convertidos em
+seus objetos wrapper, como se estivessem chamando a construtora String(), Number()
+ou Boolean().
+
+As exceções são null e undefined: qualquer tentativa de usar esses valores onde é esperado um objeto
+dispara um TypeError, em vez de realizar uma conversão.
+As conversões de objeto para valor primitivo são um pouco mais complicadas
+
