@@ -525,5 +525,11 @@ vazias indicam que nenhuma conversão é necessária e nada é feito.
 | ['a'] (qualquer outro array) | use o método join() | NaN | true | |
 | function(){} (qualquer função) | consulte a Seção 3.8.3 | NaN | true | |
 
-
+As conversões de valor primitivo para valor primitivo mostradas na tabela são relativamente simples.
+A conversão para booleano já foi discutida na Seção 3.3. A conversão para strings é bem definida
+para todos os valores primitivos. A conversão para números é apenas um pouco mais complicada.
+As strings que podem ser analisadas como números são convertidas nesses números. Espaços antes
+e depois são permitidos, mas qualquer caractere que não seja espaço antes ou depois e que não faça
+parte de um literal numérico faz a conversão de string para número produzir NaN. Algumas conversões numéricas podem parecer surpreendentes: `true` é convertido em 1 e `false` e a string vazia `""` são
+convertidos em 0.
 
