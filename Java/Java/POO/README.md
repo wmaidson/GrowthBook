@@ -35,6 +35,7 @@
 | Agregação | Tipo de relacionamento com características todo-parte, onde existe um grau de acoplamento entre o todo e as partes menos intenso, podendo haver certo grau de independência entre eles. |
 | Composição | Tipo de relacionamento com características todo-parte, onde existe um alto grau de coesão entre o todo e as partes, com total grau de dependência entre eles (todo e as partes). Desta forma, se o todo não existir, as partes também não existirão. |
 | Associação | Uma associação é um vínculo que permite que objetos de uma ou mais classes se relacionem. Através destes vínculos é possível que um objeto convoque comportamentos e estados de outros objetos. |
-
+| Upcasting | Upcasting é fazer um objeto se passar por um objeto que seja um supertipo dele. Ele sempre funcionará já que todo objeto é completamente compatível com um tipo do qual ele foi derivado. Como sempre pode ser realizado, é possível fazer implicitamente, ou seja, o compilador faz por você quando for necessário. |
+| Downcasting | Downcasting é quando o objeto se passa como se fosse um subtipo dele. Não há garantias que funcione (pode lançar uma ClassCastException, o que obviamente é um erro de programação) e pode haver necessidade de conversões. O compilador só aceita se ele puder provar que o objeto se encaixará perfeitamente e seja de fato aquele objeto. Por isso deve ser explicitado pelo programador quando deseja essa ação. A coerção ocorre em tempo de execução. |
 
 Referências: [ufrgs](https://www.if.ufrgs.br/~betz/jaulas/aula3o.htm)
