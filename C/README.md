@@ -21,5 +21,6 @@
 | %l or %ld or %li | Long |
 | %lf | Double |
 | %n | Prints nothing |
+a
 
 [Especificadores de formato em C](https://www.tutorialspoint.com/format-specifiers-in-c)
