@@ -55,3 +55,13 @@ Metodologia de Desenvolvimento de Sistemas Dinâmicos (do inglês Dynamic System
 <h1 align="center">
    <img alt="dsdm" src=".github/DSDM.png" height="300px" />
 </h1>
+
+
+## A metodologia OKR
+
+Podemos definir a metodologia OKR como um modelo de gestão ágil de desempenho com foco nos resultados. Os OKRs devem ser simples o suficiente para que todos entendam e sintam-se entusiasmados a alcançá-los. Quando aplicados com êxito, os OKRs funcionam como uma ferramenta de comunicação interna, integrando as equipes por meio de objetivos alinhados à cultura organizacional da empresa.
+
+
+<h1 align="center">
+   <img alt="okr" src=".github/okr.png" height="300px" />
+</h1>
