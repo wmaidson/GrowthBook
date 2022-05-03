@@ -14,6 +14,6 @@
 |[10](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/10.sql) | Junção simples de tableas |
 |[11](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/11.sql) | Arredondar um número decimal para cima |
 |[12](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/12.sql) | Retornar a parte inteira de um valor armazenado em uma coluna de tabela |
-|[13]() | Pesquisa por comprimento da tabela utilziando a função LENGTH |
+|[13](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/13.sql) | Pesquisa por comprimento da tabela utilziando a função LENGTH |
 |[20](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/20.sql) | Pesquisar por casos |
 
