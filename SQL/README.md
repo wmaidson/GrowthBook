@@ -15,6 +15,6 @@
 |[11](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/11.sql) | Arredondar um número decimal para cima |
 |[12](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/12.sql) | Retornar a parte inteira de um valor armazenado em uma coluna de tabela |
 |[13](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/13.sql) | Pesquisa por comprimento da tabela utilziando a função LENGTH |
-|[14]() | Adicionar caracteres à esquerda em uma consulta |
+|[14](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/14.sql) | Adicionar caracteres à esquerda em uma consulta |
 |[20](https://github.com/wmaidson/GrowthBook/blob/master/SQL/Query/20.sql) | Pesquisar por casos |
 
