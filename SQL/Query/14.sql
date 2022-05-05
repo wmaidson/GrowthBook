@@ -1,0 +1,1 @@
+SELECT LPAD( campo, 6, '0') AS comzeros;
